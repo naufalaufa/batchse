@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("LsFalcoEventEntryPoint",[],(function(a,b,c,d,e,f){"use strict";a="message_actions";b="composer";c="icebreaker";f.messageActions=a;f.composer=b;f.icebreaker=c}),66);
+__d("UNTRANSLATED_STRING_FIXME",[],(function(a,b,c,d,e,f){"use strict";function a(a){return a}f["default"]=a}),66);

@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("MWDidQueryPromptsNux",[],(function(a,b,c,d,e,f){"use strict";var g=!1;function a(){g=!0}function b(){return g}f.markDidQueryPromptsNux=a;f.getDidQueryPromptsNux=b}),66);
+__d("PolarisAPIRetrieveUserCallSettings",["PolarisInstapi","asyncToGeneratorRuntime"],(function(a,b,c,d,e,f,g){"use strict";function a(){return h.apply(this,arguments)}function h(){h=b("asyncToGeneratorRuntime").asyncToGenerator(function*(){var a=(yield d("PolarisInstapi").apiGet("/api/v1/video_call/retrieve_user_call_settings/"));return a.data});return h.apply(this,arguments)}g.retrieveUserCallSettings=a}),98);

@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("IGDSInfoOutlineIcon.react",["IGDSInfoPanoOutlineIcon.react","react"],(function(a,b,c,d,e,f,g){"use strict";var h,i=(h||(h=d("react"))).unstable_useMemoCache,j=h;function a(a){var b=i(2),d;b[0]!==a?(d=j.jsx(c("IGDSInfoPanoOutlineIcon.react"),babelHelpers["extends"]({},a)),b[0]=a,b[1]=d):d=b[1];return d}b=j.memo(a);g["default"]=b}),98);
+__d("IGDSPhotoOutlineIcon.react",["IGDSPhotoPanoOutlineIcon.react","react"],(function(a,b,c,d,e,f,g){"use strict";var h,i=(h||(h=d("react"))).unstable_useMemoCache,j=h;function a(a){var b=i(2),d;b[0]!==a?(d=j.jsx(c("IGDSPhotoPanoOutlineIcon.react"),babelHelpers["extends"]({},a)),b[0]=a,b[1]=d):d=b[1];return d}b=j.memo(a);g["default"]=b}),98);
