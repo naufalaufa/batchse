@@ -5,44 +5,6 @@ const About = () => {
   return (
     <section className="w-full m-auto  place-content-center min-h-screen grid grid-cols-2 mt-28">
       <div className="mt-3 p-3">
-        {/* <p
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          className="text-[10px] sm:text-xs"
-        >
-          Di sudut Kota Jakarta, Jakarta Timur, terdapat sebuah tempat yang
-          menjadi tempat bertemunya dua belas orang asing yang tak dikenal satu
-          sama lain. Mereka berasal dari berbagai latar belakang dan memiliki
-          cerita hidup yang berbeda.
-        </p>
-        <p data-aos="fade-right" className="text-[10px] sm:text-xs">
-          Pertemuan mereka terjadi secara kebetulan.
-        </p>
-        <p data-aos="fade-right" className="text-[10px] sm:text-xs my-2">
-          Mereka berdua tidak menyadari bahwa pertemuan mereka akan menjadi awal
-          dari sebuah petualangan yang mengubah hidup mereka. Satu per satu,
-          orang asing lainnya bergabung dengan mereka, tertarik oleh kehangatan
-          dan keramahan yang mereka rasakan di antara kelompok yang semakin
-          bertambah.
-        </p>
-        <p data-aos="fade-right" className="text-[10px] sm:text-xs">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem
-          aspernatur asperiores ut culpa officia officiis exercitationem dolores
-          expedita libero, rem amet similique veniam quasi dolorem harum illum
-          maxime eos eveniet!
-        </p>
-        <p data-aos="fade-right" className="text-[10px] sm:text-xs">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem
-          aspernatur asperiores ut culpa officia officiis exercitationem dolores
-          expedita libero, rem amet similique veniam quasi dolorem harum illum
-          maxime eos eveniet!
-        </p>
-        <p data-aos="fade-right" className="text-[10px] sm:text-xs">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem
-          aspernatur asperiores ut culpa officia officiis exercitationem dolores
-          expedita libero, rem amet similique veniam quasi dolorem harum illum
-          maxime eos eveniet!
-        </p> */}{" "}
         <video
           controls
           autoPlay
@@ -64,7 +26,7 @@ const About = () => {
             exercitationem laboriosam voluptatum accusantium, voluptate amet
             ipsam veniam explicabo voluptatibus nostrum.
           </p>
-          <p className="text-[8px] max-w-[155px] sm:max-w-full sm:text-sm mt-3">
+          <p className="text-[8px] max-w-[155px] sm:max-w-full sm:text-sm mt-3 ">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos minus
             modi doloribus vitae doloremque ratione nam iure quisquam asperiores
             exercitationem laboriosam voluptatum accusantium, voluptate amet

@@ -13,6 +13,7 @@ import Daffiz from "../assets/image/david.png";
 import Fawwaz from "../assets/image/fawwaz.png";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
+import { Image } from "antd";
 
 const Character = () => {
   const textRef = useRef(null);
@@ -28,12 +29,12 @@ const Character = () => {
 
   return (
     <>
-      <h1 className="text-center my-12 font-bold text-3xl">
+      <h1 className="text-center whitespace-nowrap my-12 font-bold text-xl">
         CHOSE YOUR CHARACTER
       </h1>
       <div className="grid min-h-screen place-content-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 p-2">
         <div className="relative">
-          <img
+          <Image
             className="border p-2 rounded-lg  shadow-sm shadow-slate-600"
             src={Iqi}
             alt={Iqi}
@@ -45,7 +46,7 @@ const Character = () => {
         </div>
 
         <div className="relative">
-          <img
+          <Image
             className="border p-2 rounded-lg  shadow-sm shadow-slate-600"
             src={Duleh}
             alt={Iqi}
@@ -57,10 +58,10 @@ const Character = () => {
         </div>
 
         <div className="relative">
-          <img
-            className="border p-2 rounded-lg  shadow-sm shadow-slate-600"
+          <Image
             src={Samson}
             alt={Samson}
+            className="border p-2 rounded-lg  shadow-sm shadow-slate-600"
           />
           <div className="absolute top-0 left-0 bottom-0 right-0 grid place-content-center bg-black/40">
             <h1 className="font-bold text-center">Arrizky Putra Ramadhan</h1>
@@ -69,7 +70,7 @@ const Character = () => {
         </div>
 
         <div className="relative">
-          <img
+          <Image
             className="border p-2 rounded-lg  shadow-sm shadow-slate-600"
             src={Cipa}
             alt={Cipa}
@@ -81,7 +82,7 @@ const Character = () => {
         </div>
 
         <div className="relative">
-          <img
+          <Image
             className="border p-2 rounded-lg  shadow-sm shadow-slate-600"
             src={Nadiras}
             alt={Nadiras}
@@ -93,7 +94,7 @@ const Character = () => {
         </div>
 
         <div className="relative">
-          <img
+          <Image
             className="border p-2 rounded-lg  shadow-sm shadow-slate-600"
             src={Dinda}
             alt={Dinda}
@@ -105,7 +106,7 @@ const Character = () => {
         </div>
 
         <div className="relative">
-          <img
+          <Image
             className="border p-2 rounded-lg  shadow-sm shadow-slate-600"
             src={Daffa}
             alt={Daffa}
@@ -117,7 +118,7 @@ const Character = () => {
         </div>
 
         <div className="relative">
-          <img
+          <Image
             className="border p-2 rounded-lg  shadow-sm shadow-slate-600"
             src={Kenny}
             alt={Kenny}
@@ -129,7 +130,7 @@ const Character = () => {
         </div>
 
         <div className="relative">
-          <img
+          <Image
             className="border p-2 rounded-lg  shadow-sm shadow-slate-600"
             src={Kibil}
             alt={Kibil}
@@ -141,7 +142,7 @@ const Character = () => {
         </div>
 
         <div className="relative">
-          <img
+          <Image
             className="border p-2 rounded-lg  shadow-sm shadow-slate-600"
             src={Opal}
             alt={Opal}
@@ -157,7 +158,7 @@ const Character = () => {
         </div>
 
         <div className="relative">
-          <img
+          <Image
             className="border p-2 rounded-lg  shadow-sm shadow-slate-600"
             src={Valez}
             alt={Valez}
@@ -169,7 +170,7 @@ const Character = () => {
         </div>
 
         <div className="relative">
-          <img
+          <Image
             className="border p-2 rounded-lg  shadow-sm shadow-slate-600"
             src={Daffiz}
             alt={Daffiz}
@@ -181,7 +182,7 @@ const Character = () => {
         </div>
 
         <div className="relative">
-          <img
+          <Image
             className="border p-2 rounded-lg  shadow-sm shadow-slate-600"
             src={Fawwaz}
             alt={Fawwaz}

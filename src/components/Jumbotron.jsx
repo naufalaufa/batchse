@@ -1,7 +1,6 @@
 import gsap from "gsap";
 
 import { useEffect, useRef, useState } from "react";
-import GazaImage from "../assets/image/palestine1.jpg";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -27,91 +26,91 @@ const Jumbotron = ({ isDarkMode }) => {
         trigger: oneTextRef.current,
         scrub: true,
       },
-      x: 40,
+      x: 30,
     });
     gsap.to(twoTextRef.current, {
       scrollTrigger: {
         trigger: twoTextRef.current,
         scrub: true,
       },
-      x: 40,
+      x: 30,
     });
     gsap.to(threeTextRef.current, {
       scrollTrigger: {
         trigger: threeTextRef.current,
         scrub: true,
       },
-      x: 40,
+      x: 30,
     });
     gsap.to(forTextRef.current, {
       scrollTrigger: {
         trigger: forTextRef.current,
         scrub: true,
       },
-      x: -40,
+      x: -30,
     });
     gsap.to(fiveTextRef.current, {
       scrollTrigger: {
         trigger: fiveTextRef.current,
         scrub: true,
       },
-      x: -40,
+      x: -30,
     });
     gsap.to(sixTextRef.current, {
       scrollTrigger: {
         trigger: sixTextRef.current,
         scrub: true,
       },
-      x: -40,
+      x: -30,
     });
     gsap.to(sixTextRef.current, {
       scrollTrigger: {
         trigger: sixTextRef.current,
         scrub: true,
       },
-      x: -40,
+      x: -30,
     });
     gsap.to(sevenTextRef.current, {
       scrollTrigger: {
         trigger: sevenTextRef.current,
         scrub: true,
       },
-      x: 40,
+      x: 30,
     });
     gsap.to(eightTextRef.current, {
       scrollTrigger: {
         trigger: eightTextRef.current,
         scrub: true,
       },
-      x: 40,
+      x: 30,
     });
     gsap.to(nineTextRef.current, {
       scrollTrigger: {
         trigger: nineTextRef.current,
         scrub: true,
       },
-      x: 40,
+      x: 30,
     });
     gsap.to(tenTextRef.current, {
       scrollTrigger: {
         trigger: tenTextRef.current,
         scrub: true,
       },
-      x: -40,
+      x: -30,
     });
     gsap.to(elevenTextRef.current, {
       scrollTrigger: {
         trigger: elevenTextRef.current,
         scrub: true,
       },
-      x: -40,
+      x: -30,
     });
     gsap.to(tertinextRef.current, {
       scrollTrigger: {
         trigger: tertinextRef.current,
         scrub: true,
       },
-      x: -40,
+      x: -30,
     });
   });
 
@@ -141,7 +140,7 @@ const Jumbotron = ({ isDarkMode }) => {
             <h1 className="text-2xl  translate-y-[-2px] sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl  font-semibold sm:translate-x-1 ">
               RESISTANCE IN BLOOM
             </h1>
-            <div className="w-[20px]  sm:w-[40px] shadow-sm shadow-slate-800 h-1 bg-white" />
+            <div className="w-[20px]  sm:w-[30px] shadow-sm shadow-slate-800 h-1 bg-white" />
             {/* <h1 className="absolute  text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl top-[-4px] font-semibold text-slate-50">
               RESISTANCE IN BLOOM
             </h1> */}
@@ -156,7 +155,7 @@ const Jumbotron = ({ isDarkMode }) => {
             <h1 className="text-2xl translate-y-[-1px] sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-serif sm:translate-x-1  ">
               RESISTANCE IN BLOOM
             </h1>
-            <div className="w-[20px] sm:w-[40px] shadow-sm shadow-slate-800 h-1 bg-white" />
+            <div className="w-[20px] sm:w-[30px] shadow-sm shadow-slate-800 h-1 bg-white" />
             {/* <h1 className="absolute text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl top-[-3px] font-serif text-slate-50">
               RESISTANCE IN BLOOM
             </h1> */}
