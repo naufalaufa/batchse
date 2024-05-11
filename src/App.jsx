@@ -7,7 +7,6 @@ import "aos/dist/aos.css";
 import Sidebar from "./components/Sidebar";
 import Character from "./components/Character";
 import Story from "./components/Story";
-import VideoJumbotron from "./components/VideoJumbotron";
 // ..
 AOS.init();
 
@@ -21,7 +20,6 @@ const App = () => {
         <About />
         <Sidebar />
         <Character />
-        <VideoJumbotron />
       </div>
     </>
   );
