@@ -110,12 +110,12 @@ const Story = () => {
         />
         <div className="flex absolute top-0 left-0 right-0 justify-evenly">
           <img
-            className="w-[50px] h-[50px] rounded-full"
+            className="w-[50px] h-[50px] md:w-[100px] md:h-[100px] rounded-full"
             src={LogoSEone}
             alt={LogoSEone}
           />
           <img
-            className="w-[50px] h-[50px] rounded-full"
+            className="w-[50px] h-[50px] md:w-[100px] md:h-[100px] rounded-full"
             src={LogoSETwo}
             alt={LogoSETwo}
           />
