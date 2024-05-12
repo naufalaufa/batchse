@@ -137,13 +137,10 @@ const Jumbotron = ({ isDarkMode }) => {
             data-aos-mirror="true"
             className="relative m-auto my-3"
           >
-            <h1 className="text-2xl  translate-y-[-2px] sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl  font-semibold sm:translate-x-1 ">
+            <h1 className="text-2xl text-center  translate-y-[-2px] sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl  font-semibold sm:translate-x-1 ">
               RESISTANCE IN BLOOM
             </h1>
-            <div className="w-[20px]  sm:w-[30px] shadow-sm shadow-slate-800 h-1 bg-white" />
-            {/* <h1 className="absolute  text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl top-[-4px] font-semibold text-slate-50">
-              RESISTANCE IN BLOOM
-            </h1> */}
+            <div className="w-[20px]  sm:w-[30px] translate-x-2 sm:translate-x-6 lg:translate-x-11 shadow-sm shadow-slate-800 h-1 bg-white" />
           </div>
 
           <div
@@ -152,7 +149,7 @@ const Jumbotron = ({ isDarkMode }) => {
             data-aos-duration="1000"
             className="relative"
           >
-            <h1 className="text-2xl translate-y-[-1px] sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-serif sm:translate-x-1  ">
+            <h1 className="text-2xl  translate-y-[-1px] sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-serif sm:translate-x-1  ">
               RESISTANCE IN BLOOM
             </h1>
             <div className="w-[20px] sm:w-[30px] shadow-sm shadow-slate-800 h-1 bg-white" />

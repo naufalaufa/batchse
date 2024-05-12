@@ -10,6 +10,8 @@ import ImageBatchSe11 from "../assets/image/batchse11.jpg";
 import ImageBatchSe12 from "../assets/image/batchse12.jpg";
 import BatchSEPosterOne from "../assets/image/hehe.jpg";
 import BatchSEPosterTwo from "../assets/image/huhu.jpg";
+import LogoSEone from "../assets/image/logoBatchSE.jpg";
+import LogoSETwo from "../assets/image/logoBatchSE2.jpg";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { Image } from "antd";
@@ -83,6 +85,7 @@ const Story = () => {
             alt=""
           />
         </div>
+
         <div data-aos="fade-left" className="max-w-[400px] ">
           <p className="text-[10px] mr-2 md:text-sm">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias
@@ -92,7 +95,7 @@ const Story = () => {
           </p>
         </div>
       </div>
-      <div className="grid relative my-10 grid-cols-2 gap-3 w-screen max-w-[95vw] m-auto container ">
+      <div className="grid relative my-10 grid-cols-2 gap-3 w-screen max-w-[95vw] m-auto container  ">
         <Image
           height={"100%"}
           className=" object-cover w-full rounded-lg "
@@ -105,6 +108,18 @@ const Story = () => {
           src={BatchSEPosterTwo}
           alt={ImageBatchSe12}
         />
+        <div className="flex absolute top-0 left-0 right-0 justify-evenly">
+          <img
+            className="w-[50px] h-[50px] rounded-full"
+            src={LogoSEone}
+            alt={LogoSEone}
+          />
+          <img
+            className="w-[50px] h-[50px] rounded-full"
+            src={LogoSETwo}
+            alt={LogoSETwo}
+          />
+        </div>
       </div>
       <div className="w-full">
         <p className="text-[10px] text-center">
