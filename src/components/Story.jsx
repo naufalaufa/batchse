@@ -17,7 +17,7 @@ import SectionStoryImageThree from "../assets/image/batchSEinThree.jpg";
 import SectionStoryImageFor from "../assets/image/batchSEfor.jpg";
 import UltahKennyImage from "../assets/image/ultahKenny.jpg";
 import ZeinRoomImage from "../assets/image/zeinRoom.jpg";
-import SiapaImageOne from "../assets/image/siapaImageOne.jpg";
+import FotoAwan from "../assets/image/fotoImageAwan.jpg";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { Image } from "antd";
@@ -42,10 +42,10 @@ const Story = () => {
       <div className="grid min-h-screen place-items-center place-content-center gap-5 grid-cols-2">
         <div data-aos="fade-right" className="max-w-[400px]">
           <p className="text-[10px] ml-2 md:text-sm">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias
-            optio hic minus ipsa sequi beatae voluptas aperiam recusandae
-            adipisci fugiat, sed, enim, soluta aliquid voluptates fuga? Soluta
-            explicabo possimus saepe.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            laboriosam deserunt facere at, quasi hic. Ratione eveniet eaque,
+            neque a dicta delectus rem sapiente in nulla, id, illo provident
+            earum?
           </p>
         </div>
         <div
@@ -128,7 +128,7 @@ const Story = () => {
         </div>
       </div>
       <div className="w-full">
-        <p className="text-[10px] text-center">
+        <p className="text-[10px] text-center md:text-sm">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
           laudantium nostrum dolore debitis repellendus officiis dolores sequi,
           ut dicta consequatur nulla mollitia! Esse quaerat cum quia natus
@@ -212,7 +212,7 @@ const Story = () => {
         </div>
 
         <div className="max-w-[150px] md:max-w-[500px]">
-          <p className="text-[8px] ml-2 sm:text-sm">
+          <p className="text-[8px] ml-2 md:text-sm">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
             assumenda, aspernatur eius quis dignissimos deleniti! Ex adipisci at
             error ipsa quaerat in, dolore aperiam minima laborum maxime
@@ -220,23 +220,50 @@ const Story = () => {
           </p>
         </div>
       </div>
-      <p className="text-[8px] sm:text-sm sm:m-auto  max-w-[800px] text-center">
+      <p className="text-[8px] my-8 sm:text-sm sm:m-auto  max-w-[800px] text-center">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
         voluptatibus perferendis libero iure, eius dolorem fugiat omnis odit
         accusamus quod! Fuga, molestiae blanditiis! Ullam quibusdam doloremque
         maiores saepe eos voluptatem.
       </p>
       <div className="grid grid-cols-3 place-content-center place-items-center max-w-[90vw] m-auto gap-5 my-20">
-        <Image src={UltahKennyImage} alt={UltahKennyImage} />
-        <Image src={UltahKennyImage} alt={UltahKennyImage} />
-        <Image src={UltahKennyImage} alt={UltahKennyImage} />
+        <Image
+          className="aspect-square object-cover"
+          src={FotoAwan}
+          alt={FotoAwan}
+        />
+        <Image
+          className="aspect-square object-contain"
+          src={ImageBatchSe11}
+          alt={ImageBatchSe11}
+        />
       </div>
-      <p className="text-[8px] sm:text-sm text-center">
+      <p className="text-[8px] my-8 sm:text-sm text-center">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
         minus voluptate, nam, nihil consequuntur sequi itaque at magni labore
         fuga magnam dignissimos quaerat. Cupiditate quam fugiat repudiandae quae
         nam blanditiis.
       </p>
+      <div className="grid grid-cols-5 gap-4 my-20">
+        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
+        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
+        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
+        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
+        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
+        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
+        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
+        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
+        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
+        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
+      </div>
+      <div className="w-screen max-w-[90%] m-auto">
+        <p className="text-[10px] text-center">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+          nulla, assumenda quidem qui adipisci nobis accusantium quaerat!
+          Commodi dicta, reprehenderit asperiores voluptatibus eaque,
+          repellendus saepe ipsum eius dolorum modi temporibus.
+        </p>
+      </div>
     </>
   );
 };

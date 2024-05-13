@@ -12,7 +12,7 @@ import Valez from "../assets/image/valez.png";
 import Daffiz from "../assets/image/david.png";
 import Fawwaz from "../assets/image/fawwaz.png";
 
-import { Carousel } from "antd";
+import { Button, Carousel, Modal } from "antd";
 
 import { useEffect, useRef } from "react";
 import gsap from "gsap";

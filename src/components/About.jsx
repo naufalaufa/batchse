@@ -21,26 +21,60 @@ const About = () => {
             Reveal Video
           </h1>
           <p className="text-[8px]   max-w-[155px] sm:max-w-full sm:text-sm mt-3">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos minus
-            modi doloribus vitae doloremque ratione nam iure quisquam asperiores
-            exercitationem laboriosam voluptatum accusantium, voluptate amet
-            ipsam veniam explicabo voluptatibus nostrum.
+            WELCOME TO CRETIVOX INTERNSHIP EXPERIENCE BATCH S.E.! Setelah
+            melewati ratusan pendaftar lainnya, akhirnya telah terpilih 13 anak
+            muda dengan keunikannya masing-masing. Dengan bangga kami
+            mempersembahkan... 🌸SPECIAL EDITION🌸
           </p>
           <p className="text-[8px] max-w-[155px] sm:max-w-full sm:text-sm mt-3 ">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos minus
-            modi doloribus vitae doloremque ratione nam iure quisquam asperiores
-            exercitationem laboriosam voluptatum accusantium, voluptate amet
-            ipsam veniam explicabo voluptatibus nostrum.
+            <p className="my-1 text-[5px] whitespace-nowrap sm:text-xs">
+              - Syifa - Intern Content Creator - Universitas Multimedia
+              Nusantara
+            </p>
+
+            <p className=" my-1 text-[5px] whitespace-nowrap sm:text-xs">
+              {" "}
+              - Valez - Intern Content Creator - Telkom University
+            </p>
+            <p className=" my-1 text-[5px] whitespace-nowrap sm:text-xs">
+              - Nabila - Intern Graphic Designer - Telkom University
+            </p>
+            <p className="my-1 text-[5px] whitespace-nowrap sm:text-xs">
+              - Arrizky - Intern Copywriter - Universitas Bhayangkara
+            </p>
+            <p className="my-1 text-[5px] whitespace-nowrap sm:text-xs">
+              - Dafiz - Intern Production - UPN Veteran Jakarta
+            </p>
+            <p className="my-1 text-[5px] whitespace-nowrap sm:text-xs">
+              - Daffa - Intern KOL Specialist - Universitas Terbuka
+            </p>
+            <p className="my-1 text-[5px] whitespace-nowrap sm:text-xs">
+              - Dilah - Intern Production - Universitas Multimedia Nusantara
+            </p>
+            <p className="my-1 text-[5px] whitespace-nowrap sm:text-xs">
+              - Naufal - Intern Front End Developer - Universitas Terbuka
+            </p>
+            <p className="my-1 text-[5px] whitespace-nowrap sm:text-xs">
+              - Nadira - Intern Content Creator - UPN Veteran Jakarta
+            </p>
+            <p className="my-1 text-[5px] whitespace-nowrap sm:text-xs">
+              - Rifqi - Intern Graphic Designer - Binus University
+            </p>
+            <p className="my-1 text-[5px] whitespace-nowrap sm:text-xs">
+              - Dinda - Intern Copywriter - Universitas Padjadjaran
+            </p>
+            <p className="my-1 text-[5px] whitespace-nowrap sm:text-xs">
+              - Fawwaz - Intern Video Editor - Politeknik Negeri Media Kreatif
+              Jakarta
+            </p>
+            <p className="my-1 text-[5px] whitespace-nowrap sm:text-xs">
+              - Kenny - Intern KOL Specialist - LSPR Jakarta
+            </p>
           </p>
         </div>
       </div>
     </section>
   );
-};
-
-About.propTypes = {
-  isBlack: PropTypes.any,
-  setIsBlack: PropTypes.any,
 };
 
 export default About;

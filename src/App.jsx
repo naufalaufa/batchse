@@ -7,7 +7,9 @@ import "aos/dist/aos.css";
 import Sidebar from "./components/Sidebar";
 import Character from "./components/Character";
 import Story from "./components/Story";
-import CompangCamping from "./components/CompangCamping";
+import Footer from "./components/Footer";
+import SiapaBatchSE from "./components/SiapaBatchSE";
+import DuaTipe from "./components/DuaTipe";
 // ..
 AOS.init();
 
@@ -17,11 +19,14 @@ const App = () => {
       <div className="bg-black text-white overflow-hidden">
         <Navbar />
         <Jumbotron />
+        <About />
         <Story />
         {/* <CompangCamping /> */}
-        <About />
+        <DuaTipe />
+        <SiapaBatchSE />
         <Sidebar />
         <Character />
+        <Footer />
       </div>
     </>
   );
