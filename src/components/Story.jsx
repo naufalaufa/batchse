@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react";
-import ImageOne from "../assets/image/cipa.png";
 import ImageBatchSeOne from "../assets/image/batchse1.jpg";
 import ImageBatchSeTwo from "../assets/image/batchse2.jpg";
 import ImageBatchSeThree from "../assets/image/batchse3.jpg";
@@ -12,6 +11,13 @@ import BatchSEPosterOne from "../assets/image/hehe.jpg";
 import BatchSEPosterTwo from "../assets/image/huhu.jpg";
 import LogoSEone from "../assets/image/logoBatchSE.jpg";
 import LogoSETwo from "../assets/image/logoBatchSE2.jpg";
+import SectionStoryImageOne from "../assets/image/batchSEdesOne.jpg";
+import SectionStoryImageTwo from "../assets/image/batchSEdesTwo.jpg";
+import SectionStoryImageThree from "../assets/image/batchSEinThree.jpg";
+import SectionStoryImageFor from "../assets/image/batchSEfor.jpg";
+import UltahKennyImage from "../assets/image/ultahKenny.jpg";
+import ZeinRoomImage from "../assets/image/zeinRoom.jpg";
+import SiapaImageOne from "../assets/image/siapaImageOne.jpg";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { Image } from "antd";
@@ -131,23 +137,106 @@ const Story = () => {
       </div>
       <div className="grid grid-cols-2 place-content-center place-items-center w-screen min-h-screen">
         <div className="max-w-[150px] md:max-w-[500px] ">
-          <p className="text-[8px] md:text-sm">
+          <p className="text-[8px]  md:text-sm">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
             repellendus aspernatur nesciunt sit explicabo, velit pariatur rem
             incidunt fugiat fugit earum consequatur quos necessitatibus
             distinctio, sapiente doloremque et voluptatum neque? lorem lorem
           </p>
         </div>
-        <div className="grid grid-cols-3 max-w-[500px] gap-3">
-          <Image src={ImageOne} alt="" />
-          <Image src={ImageOne} alt="" />
-          <Image src={ImageOne} alt="" />
-          <Image src={ImageOne} alt="" />
-          <Image src={ImageOne} alt="" />
-          <Image src={ImageOne} alt="" />
+        <div className="grid grid-cols-3 max-w-[500px] gap-3 my-20">
+          <Image
+            className="w-[200px] h-[200px] aspect-square object-cover"
+            src={SectionStoryImageOne}
+            alt=""
+          />
+          <Image
+            className="w-[200px] h-[200px] aspect-square object-cover"
+            src={SectionStoryImageTwo}
+            alt=""
+          />
+          <Image
+            className="w-[200px] h-[200px] aspect-square object-cover"
+            src={SectionStoryImageThree}
+            alt=""
+          />
+          <Image
+            className="w-[200px] h-[200px] aspect-square object-cover"
+            src={SectionStoryImageFor}
+            alt=""
+          />
+          <Image
+            className="w-[200px] h-[200px] aspect-square object-cover"
+            src={UltahKennyImage}
+            alt=""
+          />
+          <Image
+            className="w-[200px] h-[200px] aspect-square object-cover"
+            src={ZeinRoomImage}
+            alt=""
+          />
+          {/* <Image src={ImageOne} alt="" />
+          <Image src={ImageOne} alt="" /> */}
         </div>
-        <div></div>
+        <div className="grid grid-cols-3 my-11 max-w-[500px] gap-3">
+          <Image
+            className="w-[200px] h-[200px] aspect-square object-cover"
+            src={SectionStoryImageOne}
+            alt=""
+          />
+          <Image
+            className="w-[200px] h-[200px] aspect-square object-cover"
+            src={SectionStoryImageTwo}
+            alt=""
+          />
+          <Image
+            className="w-[200px] h-[200px] aspect-square object-cover"
+            src={SectionStoryImageThree}
+            alt=""
+          />
+          <Image
+            className="w-[200px] h-[200px] aspect-square object-cover"
+            src={SectionStoryImageFor}
+            alt=""
+          />
+          <Image
+            className="w-[200px] h-[200px] aspect-square object-cover"
+            src={UltahKennyImage}
+            alt=""
+          />
+          <Image
+            className="w-[200px] h-[200px] aspect-square object-cover"
+            src={ZeinRoomImage}
+            alt=""
+          />
+        </div>
+
+        <div className="max-w-[150px] md:max-w-[500px]">
+          <p className="text-[8px] ml-2 sm:text-sm">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
+            assumenda, aspernatur eius quis dignissimos deleniti! Ex adipisci at
+            error ipsa quaerat in, dolore aperiam minima laborum maxime
+            dignissimos. Beatae, nam.
+          </p>
+        </div>
       </div>
+      <p className="text-[8px] sm:text-sm sm:m-auto  max-w-[800px] text-center">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
+        voluptatibus perferendis libero iure, eius dolorem fugiat omnis odit
+        accusamus quod! Fuga, molestiae blanditiis! Ullam quibusdam doloremque
+        maiores saepe eos voluptatem.
+      </p>
+      <div className="grid grid-cols-3 place-content-center place-items-center max-w-[90vw] m-auto gap-5 my-20">
+        <Image src={UltahKennyImage} alt={UltahKennyImage} />
+        <Image src={UltahKennyImage} alt={UltahKennyImage} />
+        <Image src={UltahKennyImage} alt={UltahKennyImage} />
+      </div>
+      <p className="text-[8px] sm:text-sm text-center">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+        minus voluptate, nam, nihil consequuntur sequi itaque at magni labore
+        fuga magnam dignissimos quaerat. Cupiditate quam fugiat repudiandae quae
+        nam blanditiis.
+      </p>
     </>
   );
 };
