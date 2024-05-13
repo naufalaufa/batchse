@@ -21,10 +21,17 @@ const About = () => {
           </h1>
 
           <p className="text-[10px]  max-w-[155px]  sm:max-w-full sm:text-sm mt-3">
-            WELCOME TO CRETIVOX INTERNSHIP EXPERIENCE BATCH S.E.! Setelah
-            melewati ratusan pendaftar lainnya, akhirnya telah terpilih 13 anak
-            muda dengan keunikannya masing-masing. Dengan bangga kami
-            mempersembahkan... 🌸SPECIAL EDITION🌸
+            Bunga-bunga Bertaburan, Ini Keseruan Shooting Video Reveal. Untuk
+            pertama kalinya, kita shooting bareng ber-13 sambil catwalk dan
+            bergaya layaknya lo adalah seorang model. Tenang, bakal diajarin
+            dulu kok catwalknya sampe lo pede di depan kamera. Pokoknya di momen
+            ini lo tuh bakal jadi cakep banget deh!! Yang cowok, rambut lo bakal
+            dicukur secara gratis karena di support sama Cretivox, pokoknya
+            rambut lo bakal dibuat keren biar jadi makin ganteng sampe
+            cewek-cewek pada naksir. Dan yang cewek lo akan didandani jadi
+            cantik. Perpaduan outfit dengan warna merah, hijau, putih, dan hitam
+            yang melambangkan Batch S.E. Dengan bertaburan bunga, shooting ini
+            dimulai dari pagi sampe malam dengan penuh keseruan dan kebahagiaan.
           </p>
           <p className="mt-4 text-[5px] max-w-[150px] sm:max-w-full m-auto sm:text-sm text-center">
             Music: Hamid El Shaeri - Ayonha by️ Habibi Funk Records

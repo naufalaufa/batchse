@@ -6,14 +6,19 @@ const SiapaBatchSE = () => {
   return (
     <>
       <section className="grid min-h-screen place-content-center my-32 place-items-center ">
-        <h1 className="my-5 font-bold text-2xl">Siapa</h1>
+        <h1 className="my-5 font-bold text-2xl ">Siapa?</h1>
         <div className="w-screen max-w-[95vw] m-auto">
           <Image className="rounded-lg" src={SiapaImage} alt={SiapaImage} />
           <p className="text-[10px] my-5 max-w-[90%] m-auto text-center">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-            excepturi iste fugit corrupti qui fuga non voluptates doloribus
-            molestias voluptate provident reprehenderit minima, labore aliquam
-            aliquid optio laboriosam impedit voluptatum. lorem
+            Nah ini dia momen jujur-jujuran di shooting video “SIAPA?”. Malam
+            sebelum shooting video “SIAPA?” kita baru aja selesai shooting video
+            hiring dan harus potong-potongin muka sendiri sebanyak 26 pieces per
+            orang, sampe kita udah muak liat muka sendiri yang jelek banget.
+            Pada akhirnya kita diberi 2 pilihan, yaitu waktu atau uang.
+            Pilihannya meluangkan waktu untuk potong-potong sampai pagi, atau
+            joki ke tukang fotocopy. At the end kita semua punya choices
+            masing-masing. Sampai pada akhirnya kita shooting dan meskipun mata
+            kurang tidur, badan kurang istirahat kita semua tetap semangat.
           </p>
           <a
             href=""

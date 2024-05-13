@@ -41,11 +41,8 @@ const Story = () => {
     <>
       <div className="grid min-h-screen place-items-center place-content-center gap-5 grid-cols-2">
         <div data-aos="fade-right" className="max-w-[400px]">
-          <p className="text-[10px] ml-2 md:text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            laboriosam deserunt facere at, quasi hic. Ratione eveniet eaque,
-            neque a dicta delectus rem sapiente in nulla, id, illo provident
-            earum?
+          <p className="text-[10px] ml-2 md:text-xl font-bold">
+            Penutup Sekaligus Pembuka
           </p>
         </div>
         <div
@@ -93,11 +90,8 @@ const Story = () => {
         </div>
 
         <div data-aos="fade-left" className="max-w-[400px] ">
-          <p className="text-[10px] mr-2 md:text-sm">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias
-            optio hic minus ipsa sequi beatae voluptas aperiam recusandae
-            adipisci fugiat, sed, enim, soluta aliquid voluptates fuga? Soluta
-            explicabo possimus saepe.
+          <p className="text-[10px] mr-2 md:text-xl text-center font-bold">
+            Ini Dia Cerita Batch S.E ‘Resistance In Bloom’!
           </p>
         </div>
       </div>
@@ -127,21 +121,24 @@ const Story = () => {
           />
         </div>
       </div>
-      <div className="w-full">
+      <div className="w-full max-w-[95vw] m-auto">
         <p className="text-[10px] text-center md:text-sm">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-          laudantium nostrum dolore debitis repellendus officiis dolores sequi,
-          ut dicta consequatur nulla mollitia! Esse quaerat cum quia natus
-          maiores reprehenderit quisquam!
+          Setelah lima bulan menjelajahi kehidupan yang lebih bervariasi dari
+          acara TV, bersama 13 gen-z dengan kepribadian yang beragam, sekarang
+          kita sampai di babak baru. Dalam perjalanan ini, kita telah
+          mengumpulkan kenangan yang lebih berwarna daripada palet cat lukisan,
+          dari momen-momen kocak hingga saat-saat mengharukan yang membuat kita
+          ingin menyeka air mata. Meskipun bayangan perpisahan melayang di
+          udara, tapi kita telah tumbuh bersama dan siap untuk mengejar impian
+          masing-masing.
         </p>
       </div>
       <div className="grid grid-cols-2 place-content-center place-items-center w-screen min-h-screen">
         <div className="max-w-[150px] md:max-w-[500px] ">
           <p className="text-[8px]  md:text-sm">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
-            repellendus aspernatur nesciunt sit explicabo, velit pariatur rem
-            incidunt fugiat fugit earum consequatur quos necessitatibus
-            distinctio, sapiente doloremque et voluptatum neque? lorem lorem
+            Kisah kita bukanlah hanya sekedar pekerjaan, tetapi juga tentang
+            perjalanan emosional dan rohaniah yang telah mengubah kita menjadi
+            pahlawan.
           </p>
         </div>
         <div className="grid grid-cols-3 max-w-[500px] gap-3 my-20">
@@ -213,18 +210,17 @@ const Story = () => {
 
         <div className="max-w-[150px] md:max-w-[500px]">
           <p className="text-[8px] ml-2 md:text-sm">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
-            assumenda, aspernatur eius quis dignissimos deleniti! Ex adipisci at
-            error ipsa quaerat in, dolore aperiam minima laborum maxime
-            dignissimos. Beatae, nam.
+            Dari setiap ujian yang kita hadapi, kita belajar tentang kekuatan
+            persatuan dan ketahanan dalam menghadapi cobaan. Meski jalan ke
+            depan mungkin membawa kita ke arah yang berbeda, tapi ikatan yang
+            terjalin akan tetap menggugah kenangan manis dalam ingatan.
           </p>
         </div>
       </div>
       <p className="text-[8px] my-8 sm:text-sm sm:m-auto  max-w-[800px] text-center">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
-        voluptatibus perferendis libero iure, eius dolorem fugiat omnis odit
-        accusamus quod! Fuga, molestiae blanditiis! Ullam quibusdam doloremque
-        maiores saepe eos voluptatem.
+        Apa yang kita alami selama lima bulan ini adalah lebih dari sekadar
+        petualangan, tapi juga kisah tentang persahabatan yang tumbuh dan
+        berkembang layaknya film drama Hollywood.
       </p>
       <div className="grid grid-cols-3 place-content-center place-items-center max-w-[90vw] m-auto gap-5 my-20">
         <Image
@@ -237,12 +233,16 @@ const Story = () => {
           src={ImageBatchSe11}
           alt={ImageBatchSe11}
         />
+        <Image
+          className="aspect-square object-cover"
+          src={FotoAwan}
+          alt={FotoAwan}
+        />
       </div>
       <p className="text-[8px] my-8 sm:text-sm text-center">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-        minus voluptate, nam, nihil consequuntur sequi itaque at magni labore
-        fuga magnam dignissimos quaerat. Cupiditate quam fugiat repudiandae quae
-        nam blanditiis.
+        Mari kita simpan setiap momen itu dalam album kenangan kita, sebagai
+        bahan bakar inspirasi saat kita menatap masa depan dengan semangat yang
+        tak terpadamkan,
       </p>
       <div className="grid grid-cols-5 gap-4 my-20">
         <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
@@ -258,10 +258,8 @@ const Story = () => {
       </div>
       <div className="w-screen max-w-[90%] m-auto">
         <p className="text-[10px] text-center">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
-          nulla, assumenda quidem qui adipisci nobis accusantium quaerat!
-          Commodi dicta, reprehenderit asperiores voluptatibus eaque,
-          repellendus saepe ipsum eius dolorum modi temporibus.
+          Suka dan Duka Dilalui Bersama, Bukan Sekedar Teman Kerja, Akan Tetapi
+          Keluarga Yang Selalu Ada.
         </p>
       </div>
     </>
