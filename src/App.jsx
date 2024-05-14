@@ -11,7 +11,6 @@ import Footer from "./components/Footer";
 import SiapaBatchSE from "./components/SiapaBatchSE";
 import DuaTipe from "./components/DuaTipe";
 import CompangCamping from "./components/CompangCamping";
-// ..
 AOS.init();
 
 const App = () => {

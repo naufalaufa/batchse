@@ -3,6 +3,10 @@ import gsap from "gsap";
 import { useEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import BatchSeImageJumbotrom from "../assets/image/seFlowerHd.jpg";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Image, Typography } from "antd";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -125,11 +129,14 @@ const Jumbotron = ({ isDarkMode }) => {
         id="jumbotron"
         className="min-h-screen grid place-content-center relative  "
       >
-        <img
-          className="object-cover opacity-100 h-[90vh] top-0 left-0 right-0 bottom-0 min-h-screen w-screen bg-center"
-          src={BatchSeImageJumbotrom}
-          alt={BatchSeImageJumbotrom}
-        />
+        <div className="relative">
+          <img
+            className="object-cover opacity-100 h-full sm:h-[90vh]  min-h-screen w-screen bg-center"
+            src={BatchSeImageJumbotrom}
+            alt={BatchSeImageJumbotrom}
+          />
+        </div>
+
         <div className="absolute top-0 left-0 right-0 bottom-0 grid place-content-center place-items-center bg-black/55">
           <div
             data-aos="flip-up"
@@ -167,7 +174,8 @@ const Jumbotron = ({ isDarkMode }) => {
           </div>
         </div>
       </section>
-      <div className="relative rotate-12 top-20">
+
+      <div className="relative rotate-12 top-32 mt-89">
         <div
           className={`grid grid-cols-3 gap-2 -rotate-6 p-2 overflow-hidden max-w-full w-screen place-content-center place-items-center ${
             isDarkMode

@@ -19,7 +19,7 @@ const CompangCamping = () => {
             alt={CompangCampingImageOne}
           />
         </div>
-        <p className="w-full max-w-[400px] m-auto text-[10px] text-center my-3 sm:text-sm ">
+        <p className="w-full max-w-[400px] m-auto text-[10px] text-center my-3 sm:text-sm md:whitespace-nowrap md:max-w-[600px] ">
           Camping sambil ujan-ujanan? Ini dia serunya compang camping Cretivox!
         </p>
         <p className="w-full max-w-[350px] m-auto text-[10px] text-center sm:text-sm sm:max-w-[700px] ">
