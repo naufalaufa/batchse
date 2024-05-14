@@ -43,52 +43,54 @@ const Story = () => {
         id="storyimage"
         className="grid min-h-screen place-items-center place-content-center gap-5 grid-cols-2"
       >
-        <div data-aos="fade-right" className="max-w-[400px]">
+        <div data-aos="fade-up" className="max-w-[400px]">
           <p className="text-[10px] ml-2 md:text-xl font-bold">
             Penutup Sekaligus Pembuka
           </p>
         </div>
         <div
-          data-aos="flip-right"
+          data-aos="fade-up"
+          data-aos-duratio="1000"
           className="grid mt-12 grid-cols-1 md:grid md:grid-cols-3 max-w-[500px] gap-2"
         >
           <Image
             className=" object-cover aspect-square"
             src={ImageBatchSeOne}
-            alt=""
+            alt={ImageBatchSeOne}
           />
           <Image
             height={"100%"}
             className="object-cover aspect-square"
             src={ImageBatchSeTwo}
-            alt=""
+            alt={ImageBatchSeTwo}
           />
           <Image
             height={"100%"}
             className="object-cover aspect-square"
             src={ImageBatchSeThree}
-            alt=""
+            alt={ImageBatchSeThree}
           />
         </div>
         <div
-          data-aos="flip-left"
+          data-aos="fade-up"
+          data-aos-duration="1000"
           className="grid grid-cols-1 md:grid md:grid-cols-3 max-w-[500px] gap-2"
         >
           <Image
             height={"100%"}
             className="aspect-square object-cover"
             src={ImageBatchSeFive}
-            alt=""
+            alt={ImageBatchSeFive}
           />
           <Image
             className="aspect-square object-cover"
             src={ImageBatchSeSeven}
-            alt=""
+            alt={ImageBatchSeSeven}
           />
           <Image
             className="aspect-square object-cover"
             src={ImageBatchSeEight}
-            alt=""
+            alt={ImageBatchSeEight}
           />
         </div>
 
@@ -138,81 +140,98 @@ const Story = () => {
         </p>
       </div>
       <div className="grid grid-cols-2 place-content-center place-items-center w-screen min-h-screen">
-        <div className="max-w-[150px] md:max-w-[500px] ">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="max-w-[150px] md:max-w-[500px] "
+        >
           <p className="text-[8px]  md:text-sm">
             Kisah kita bukanlah hanya sekedar pekerjaan, tetapi juga tentang
             perjalanan emosional dan rohaniah yang telah mengubah kita menjadi
             pahlawan.
           </p>
         </div>
-        <div className="grid grid-cols-3 max-w-[500px] gap-3 my-20">
+        <div
+          data-aos="fade-up"
+          data-aos-mirror="true"
+          data-aos-duration="1000"
+          className="grid grid-cols-3 max-w-[500px] gap-3 my-20"
+        >
           <Image
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={SectionStoryImageOne}
-            alt=""
+            alt={SectionStoryImageOne}
           />
           <Image
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={SectionStoryImageTwo}
-            alt=""
+            alt={SectionStoryImageTwo}
           />
           <Image
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={SectionStoryImageThree}
-            alt=""
+            alt={SectionStoryImageThree}
           />
           <Image
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={SectionStoryImageFor}
-            alt=""
+            alt={SectionStoryImageFor}
           />
           <Image
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={UltahKennyImage}
-            alt=""
+            alt={UltahKennyImage}
           />
           <Image
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={ZeinRoomImage}
-            alt=""
+            alt={ZeinRoomImage}
           />
           {/* <Image src={ImageOne} alt="" />
           <Image src={ImageOne} alt="" /> */}
         </div>
-        <div className="grid grid-cols-3 my-11 max-w-[500px] gap-3">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="grid grid-cols-3 my-11 max-w-[500px] gap-3"
+        >
           <Image
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={SectionStoryImageOne}
-            alt=""
+            alt={SectionStoryImageOne}
           />
           <Image
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={SectionStoryImageTwo}
-            alt=""
+            alt={SectionStoryImageTwo}
           />
           <Image
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={SectionStoryImageThree}
-            alt=""
+            alt={SectionStoryImageThree}
           />
           <Image
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={SectionStoryImageFor}
-            alt=""
+            alt={SectionStoryImageFor}
           />
           <Image
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={UltahKennyImage}
-            alt=""
+            alt={UltahKennyImage}
           />
           <Image
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={ZeinRoomImage}
-            alt=""
+            alt={ZeinRoomImage}
           />
         </div>
 
-        <div className="max-w-[150px] md:max-w-[500px]">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="max-w-[150px] md:max-w-[500px]"
+        >
           <p className="text-[8px] ml-2 md:text-sm">
             Dari setiap ujian yang kita hadapi, kita belajar tentang kekuatan
             persatuan dan ketahanan dalam menghadapi cobaan. Meski jalan ke
@@ -221,12 +240,20 @@ const Story = () => {
           </p>
         </div>
       </div>
-      <p className="text-[8px] my-8 sm:text-sm sm:m-auto  max-w-[800px] text-center">
+      <p
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className="text-[8px] my-8 sm:text-sm sm:m-auto  max-w-[800px] text-center"
+      >
         Apa yang kita alami selama lima bulan ini adalah lebih dari sekadar
         petualangan, tapi juga kisah tentang persahabatan yang tumbuh dan
         berkembang layaknya film drama Hollywood.
       </p>
-      <div className="grid grid-cols-3 place-content-center place-items-center max-w-[90vw] m-auto gap-5 my-20">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className="grid grid-cols-3 place-content-center place-items-center max-w-[90vw] m-auto gap-5 my-20"
+      >
         <Image
           className="aspect-square object-cover"
           src={FotoAwan}
@@ -248,7 +275,11 @@ const Story = () => {
         bahan bakar inspirasi saat kita menatap masa depan dengan semangat yang
         tak terpadamkan,
       </p>
-      <div className="grid grid-cols-5 gap-4 my-20">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className="grid grid-cols-5 gap-4 my-20"
+      >
         <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
         <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
         <Image src={ImageBatchSe11} alt={ImageBatchSe11} />

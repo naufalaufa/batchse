@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import SiapaBatchSE from "./components/SiapaBatchSE";
 import DuaTipe from "./components/DuaTipe";
 import CompangCamping from "./components/CompangCamping";
+import Farewell from "./components/Farewell";
 AOS.init();
 
 const App = () => {
@@ -21,9 +22,11 @@ const App = () => {
         <Jumbotron />
         <About />
         <Story />
+
         <CompangCamping />
         <DuaTipe />
         <SiapaBatchSE />
+        <Farewell />
         <Sidebar />
         <Character />
         <Footer />

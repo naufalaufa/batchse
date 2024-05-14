@@ -3,10 +3,8 @@ import gsap from "gsap";
 import { useEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import BatchSeImageJumbotrom from "../assets/image/seFlowerHd.jpg";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Image, Typography } from "antd";
 
 gsap.registerPlugin(ScrollTrigger);
 

@@ -4,11 +4,18 @@ import { FaYoutube } from "react-icons/fa";
 
 const DuaTipe = () => {
   return (
-    <section className="min-h-screen grid place-content-center place-items-center my-32">
+    <section
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      className="min-h-screen grid place-content-center place-items-center my-32"
+    >
       <div className="w-screen max-w-[95vw] m-auto">
         <h1 className="text-center font-bold text-2xl my-3">Dua Tipe</h1>
         <Image className="rounded-lg" src={TwoTypeImage} alt={TwoTypeImage} />
-        <p className="text-[10px] w-screen max-w-[90%] m-auto text-center mt-3 sm:text-sm">
+        <p
+          data-aos="fade-up"
+          className="text-[10px] w-screen max-w-[90%] m-auto text-center mt-3 sm:text-sm"
+        >
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
           necessitatibus rem facere minus cum tenetur fuga, veniam quo fugit
           sapiente magnam quisquam voluptatibus sint, quas accusantium, atque

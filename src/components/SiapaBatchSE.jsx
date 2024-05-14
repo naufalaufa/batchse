@@ -5,11 +5,18 @@ import { FaYoutube } from "react-icons/fa";
 const SiapaBatchSE = () => {
   return (
     <>
-      <section className="grid min-h-screen place-content-center my-32 place-items-center ">
+      <section
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className="grid min-h-screen place-content-center my-32 place-items-center "
+      >
         <h1 className="my-5 font-bold text-2xl ">Siapa?</h1>
         <div className="w-screen max-w-[95vw] m-auto">
           <Image className="rounded-lg" src={SiapaImage} alt={SiapaImage} />
-          <p className="text-[10px] my-5 max-w-[90%] m-auto text-center sm:text-sm">
+          <p
+            data-aos="fade-up"
+            className="text-[10px] my-5 max-w-[90%] m-auto text-center sm:text-sm"
+          >
             Nah ini dia momen jujur-jujuran di shooting video “SIAPA?”. Malam
             sebelum shooting video “SIAPA?” kita baru aja selesai shooting video
             hiring dan harus potong-potongin muka sendiri sebanyak 26 pieces per
