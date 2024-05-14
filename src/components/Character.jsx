@@ -895,7 +895,7 @@ const Character = () => {
               </h1>
               <p className="text-xs text-white">Intern Content Creator</p>
               <Button
-                onClick={() => setCharacterOne(!characterOne)}
+                onClick={() => setCharacter11(!character11)}
                 className="bg-black text-white mt-11"
               >
                 Select Character
@@ -915,7 +915,7 @@ const Character = () => {
                 Intern Video Production
               </p>
               <Button
-                onClick={() => setCharacterOne(!characterOne)}
+                onClick={() => setCharacter12(!character12)}
                 className="bg-black text-white mt-11"
               >
                 Select Character
