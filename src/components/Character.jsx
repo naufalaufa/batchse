@@ -12,7 +12,7 @@ import Valez from "../assets/image/valez.png";
 import Daffiz from "../assets/image/david.png";
 import Fawwaz from "../assets/image/fawwaz.png";
 
-import { Button, Carousel, Modal } from "antd";
+import { Carousel } from "antd";
 
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
@@ -32,7 +32,7 @@ const Character = () => {
   return (
     <>
       <h1 className="text-center  whitespace-nowrap my-10 lg:mt-32  font-bold text-xl">
-        CHOSE YOUR CHARACTER
+        CHOOSE YOUR CHARACTER
       </h1>
       <div className="hidden md:grid md:grid-cols-3 lg:grid lg:grid-cols-3">
         <div className="relative">
