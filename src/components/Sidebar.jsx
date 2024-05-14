@@ -11,11 +11,11 @@ const Sidebar = () => {
         <a href="#jumbotron">
           <FaHome className="text-black" />
         </a>
-        <a href="">
-          <FaPhotoVideo className="text-black" />
-        </a>
-        <a href="">
+        <a href="#video">
           <FaVideo className="text-black" />
+        </a>
+        <a href="#storyimage">
+          <FaPhotoVideo className="text-black" />
         </a>
         <a href="">
           <HiOutlineEmojiSad className="text-black" />

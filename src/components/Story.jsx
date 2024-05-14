@@ -39,7 +39,10 @@ const Story = () => {
 
   return (
     <>
-      <div className="grid min-h-screen place-items-center place-content-center gap-5 grid-cols-2">
+      <div
+        id="storyimage"
+        className="grid min-h-screen place-items-center place-content-center gap-5 grid-cols-2"
+      >
         <div data-aos="fade-right" className="max-w-[400px]">
           <p className="text-[10px] ml-2 md:text-xl font-bold">
             Penutup Sekaligus Pembuka
@@ -123,14 +126,15 @@ const Story = () => {
       </div>
       <div className="w-full max-w-[95vw] m-auto">
         <p className="text-[10px] text-center md:text-sm">
-          Setelah lima bulan menjelajahi kehidupan yang lebih bervariasi dari
-          acara TV, bersama 13 gen-z dengan kepribadian yang beragam, sekarang
-          kita sampai di babak baru. Dalam perjalanan ini, kita telah
-          mengumpulkan kenangan yang lebih berwarna daripada palet cat lukisan,
-          dari momen-momen kocak hingga saat-saat mengharukan yang membuat kita
-          ingin menyeka air mata. Meskipun bayangan perpisahan melayang di
-          udara, tapi kita telah tumbuh bersama dan siap untuk mengejar impian
-          masing-masing.
+          Halo Vox! Batch S.E nih senggol dong. Lo harus liat keseruan kita sih,
+          biar gak ragu lagi buat daftar magang di Cretivox. Magang disini beda
+          banget, disini lo bakal ngerasain momen magang paling seru yang bakal
+          selalu lo inget sepanjang hidup lo! Dengan kata suka cita dan
+          keceriaan yang meluap, Lima bulan petualangan yang penuh warna udah
+          kita laluin bersama, merangkai kenangan-kenangan yang tak terlupakan
+          seiring berjalannya waktu. Dari setiap tawa hingga tetes air mata yang
+          mengalir, kita telah mengukir kisah persahabatan yang menghangatkan
+          hati dan menginspirasi layaknya sebuah keluarga.
         </p>
       </div>
       <div className="grid grid-cols-2 place-content-center place-items-center w-screen min-h-screen">
@@ -257,7 +261,7 @@ const Story = () => {
         <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
       </div>
       <div className="w-screen max-w-[90%] m-auto">
-        <p className="text-[10px] text-center">
+        <p className="text-[10px] text-center sm:text-sm">
           Suka dan Duka Dilalui Bersama, Bukan Sekedar Teman Kerja, Akan Tetapi
           Keluarga Yang Selalu Ada.
         </p>

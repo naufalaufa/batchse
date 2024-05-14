@@ -9,7 +9,7 @@ const SiapaBatchSE = () => {
         <h1 className="my-5 font-bold text-2xl ">Siapa?</h1>
         <div className="w-screen max-w-[95vw] m-auto">
           <Image className="rounded-lg" src={SiapaImage} alt={SiapaImage} />
-          <p className="text-[10px] my-5 max-w-[90%] m-auto text-center">
+          <p className="text-[10px] my-5 max-w-[90%] m-auto text-center sm:text-sm">
             Nah ini dia momen jujur-jujuran di shooting video “SIAPA?”. Malam
             sebelum shooting video “SIAPA?” kita baru aja selesai shooting video
             hiring dan harus potong-potongin muka sendiri sebanyak 26 pieces per

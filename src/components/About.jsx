@@ -2,7 +2,10 @@ import Video from "../../public/IGDownloader.App_3281478362405073657.mp4";
 
 const About = () => {
   return (
-    <section className="w-full m-auto  place-content-center min-h-screen grid grid-cols-2 mt-28">
+    <section
+      id="video"
+      className="w-full m-auto  place-content-center min-h-screen grid grid-cols-2 mt-28"
+    >
       <div className="mt-3 p-3">
         <video
           controls

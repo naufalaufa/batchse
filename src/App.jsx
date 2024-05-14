@@ -10,6 +10,7 @@ import Story from "./components/Story";
 import Footer from "./components/Footer";
 import SiapaBatchSE from "./components/SiapaBatchSE";
 import DuaTipe from "./components/DuaTipe";
+import CompangCamping from "./components/CompangCamping";
 // ..
 AOS.init();
 
@@ -21,7 +22,7 @@ const App = () => {
         <Jumbotron />
         <About />
         <Story />
-        {/* <CompangCamping /> */}
+        <CompangCamping />
         <DuaTipe />
         <SiapaBatchSE />
         <Sidebar />

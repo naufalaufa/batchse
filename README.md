@@ -10,3 +10,12 @@ Currently, two official plugins are available:
 nitip foto hehe
 
 <div className="grid relative max-w-[600px]  gap-5 p-3  grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+
+Setelah lima bulan menjelajahi kehidupan yang lebih bervariasi dari
+acara TV, bersama 13 gen-z dengan kepribadian yang beragam, sekarang
+kita sampai di babak baru. Dalam perjalanan ini, kita telah
+mengumpulkan kenangan yang lebih berwarna daripada palet cat lukisan,
+dari momen-momen kocak hingga saat-saat mengharukan yang membuat kita
+ingin menyeka air mata. Meskipun bayangan perpisahan melayang di
+udara, tapi kita telah tumbuh bersama dan siap untuk mengejar impian
+masing-masing.

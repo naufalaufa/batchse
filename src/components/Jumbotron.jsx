@@ -1,12 +1,12 @@
 import gsap from "gsap";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import BatchSeImageJumbotrom from "../assets/image/seFlowerHd.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const Jumbotron = ({ isDarkMode }) => {
-  const [isImage, setIsImage] = useState(false);
   const oneTextRef = useRef(null);
   const twoTextRef = useRef(null);
   const threeTextRef = useRef(null);
@@ -26,91 +26,91 @@ const Jumbotron = ({ isDarkMode }) => {
         trigger: oneTextRef.current,
         scrub: true,
       },
-      x: 30,
+      x: 35,
     });
     gsap.to(twoTextRef.current, {
       scrollTrigger: {
         trigger: twoTextRef.current,
         scrub: true,
       },
-      x: 30,
+      x: 35,
     });
     gsap.to(threeTextRef.current, {
       scrollTrigger: {
         trigger: threeTextRef.current,
         scrub: true,
       },
-      x: 30,
+      x: 35,
     });
     gsap.to(forTextRef.current, {
       scrollTrigger: {
         trigger: forTextRef.current,
         scrub: true,
       },
-      x: -30,
+      x: -35,
     });
     gsap.to(fiveTextRef.current, {
       scrollTrigger: {
         trigger: fiveTextRef.current,
         scrub: true,
       },
-      x: -30,
+      x: -35,
     });
     gsap.to(sixTextRef.current, {
       scrollTrigger: {
         trigger: sixTextRef.current,
         scrub: true,
       },
-      x: -30,
+      x: -35,
     });
     gsap.to(sixTextRef.current, {
       scrollTrigger: {
         trigger: sixTextRef.current,
         scrub: true,
       },
-      x: -30,
+      x: -35,
     });
     gsap.to(sevenTextRef.current, {
       scrollTrigger: {
         trigger: sevenTextRef.current,
         scrub: true,
       },
-      x: 30,
+      x: 35,
     });
     gsap.to(eightTextRef.current, {
       scrollTrigger: {
         trigger: eightTextRef.current,
         scrub: true,
       },
-      x: 30,
+      x: 35,
     });
     gsap.to(nineTextRef.current, {
       scrollTrigger: {
         trigger: nineTextRef.current,
         scrub: true,
       },
-      x: 30,
+      x: 35,
     });
     gsap.to(tenTextRef.current, {
       scrollTrigger: {
         trigger: tenTextRef.current,
         scrub: true,
       },
-      x: -30,
+      x: -35,
     });
     gsap.to(elevenTextRef.current, {
       scrollTrigger: {
         trigger: elevenTextRef.current,
         scrub: true,
       },
-      x: -30,
+      x: -35,
     });
     gsap.to(tertinextRef.current, {
       scrollTrigger: {
         trigger: tertinextRef.current,
         scrub: true,
       },
-      x: -30,
+      x: -35,
     });
   });
 
@@ -123,24 +123,24 @@ const Jumbotron = ({ isDarkMode }) => {
     <>
       <section
         id="jumbotron"
-        className="min-h-screen grid place-content-center  "
+        className="min-h-screen grid place-content-center relative  "
       >
-        {/* <img
-          className="absolute object-cover opacity-100 top-0 left-0 right-0 bottom-0 min-h-screen w-screen"
-          src={GazaImage}
-          alt={GazaImage}
-        /> */}
-        <div>
+        <img
+          className="object-cover opacity-100 h-[90vh] top-0 left-0 right-0 bottom-0 min-h-screen w-screen bg-center"
+          src={BatchSeImageJumbotrom}
+          alt={BatchSeImageJumbotrom}
+        />
+        <div className="absolute top-0 left-0 right-0 bottom-0 grid place-content-center place-items-center bg-black/55">
           <div
             data-aos="flip-up"
             data-aos-duration="1000"
             data-aos-mirror="true"
-            className="relative m-auto my-3"
+            className=" m-auto my-3"
           >
-            <h1 className="text-2xl text-center  translate-y-[-2px] sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl  font-semibold sm:translate-x-1 ">
+            <h1 className="text-2xl  text-center  translate-y-[-2px] sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl  font-semibold sm:translate-x-1 ">
               RESISTANCE IN BLOOM
             </h1>
-            <div className="w-[20px]  sm:w-[30px] translate-x-2 sm:translate-x-6 lg:translate-x-11 shadow-sm shadow-slate-800 h-1 bg-white" />
+            <div className="w-[20px]  sm:w-[30px] translate-x-[-2px] sm:translate-x-1 lg:translate-x-2 shadow-sm shadow-slate-800 h-1 bg-white" />
           </div>
 
           <div
@@ -153,9 +153,6 @@ const Jumbotron = ({ isDarkMode }) => {
               RESISTANCE IN BLOOM
             </h1>
             <div className="w-[20px] sm:w-[30px] shadow-sm shadow-slate-800 h-1 bg-white" />
-            {/* <h1 className="absolute text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl top-[-3px] font-serif text-slate-50">
-              RESISTANCE IN BLOOM
-            </h1> */}
             <p
               data-aos-duration="2000"
               data-aos="flip-down"
