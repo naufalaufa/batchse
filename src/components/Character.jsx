@@ -56,7 +56,9 @@ const Character = () => {
             alt={Iqi}
           />
           <div className="absolute grid top-0 bottom-0 left-0 right-0 place-content-center bg-black/40">
-            <h1 className="font-bold text-white">Muhammad Rifqi Zafran</h1>
+            <h1 className="font-bold text-white text-xs text-center">
+              Muhammad Rifqi Zafran
+            </h1>
             <p className="text-xs text-center text-white">
               Intern Grapich Design
             </p>
@@ -71,7 +73,7 @@ const Character = () => {
               onCancel={() => setCharacterOne(false)}
               onOk={() => setCharacterOne(!characterOne)}
             >
-              <p className="font-bold">Muhammad Rifqi Zafran</p>
+              <p className="font-bold text-xs">Muhammad Rifqi Zafran</p>
               <p className="text-xs my-3">
                 Magang di Cretivox itu menurut gue kayak balik lagi ke zaman
                 sekolah. Disini gue bukan cuma kerja, tapi dengan lingkungannya
@@ -107,7 +109,9 @@ const Character = () => {
             alt={Duleh}
           />
           <div className="absolute top-0 left-0 bottom-0 right-0 grid place-content-center bg-black/40">
-            <h1 className="font-bold text-center text-white ">Nurul Fadilah</h1>
+            <h1 className="font-bold text-center text-white text-xs ">
+              Nurul Fadilah
+            </h1>
             <p className="text-xs text-center text-white">
               Intern Video Production
             </p>
@@ -122,7 +126,7 @@ const Character = () => {
               onCancel={() => setCharacterTwo(false)}
               onOk={() => setCharacterTwo(!characterTwo)}
             >
-              <p className="font-bold">Nurul Fadilah</p>
+              <p className="font-bold text-xs">Nurul Fadilah</p>
               <p className="text-xs my-3">
                 Semenjak gue masuk Cretivox, dunia gue berubah 180 derajat, gue
                 yang dulunya cuek dan males join tiap ada acara kampus,
@@ -152,7 +156,7 @@ const Character = () => {
             className="border p-2 rounded-lg m-auto  shadow-sm shadow-slate-600"
           />
           <div className="absolute top-0 left-0 bottom-0 right-0 grid place-content-center bg-black/40">
-            <h1 className="font-bold text-center text-white">
+            <h1 className="font-bold text-center text-white text-xs">
               Arrizky Putra Ramadhan
             </h1>
             <p className="text-xs text-center text-white">Intern CopyWriter</p>
@@ -167,7 +171,7 @@ const Character = () => {
               onCancel={() => setCharacterThree(false)}
               onOk={() => setCharacterThree(!characterThree)}
             >
-              <p className="font-bold">Arrizky Putra Ramadhan</p>
+              <p className="font-bold text-xs ">Arrizky Putra Ramadhan</p>
               <p className="text-xs my-3">
                 Kalo ditanya kerjaan disini tuh sistemnya kaya gimana dan
                 ngapain aja, sebagai Intern Copywriter disini, waktu pertama
@@ -195,7 +199,7 @@ const Character = () => {
             alt={Cipa}
           />
           <div className="absolute top-0 left-0 bottom-0 right-0 grid place-content-center bg-black/40">
-            <h1 className="font-bold text-center text-white">
+            <h1 className="font-bold text-center text-white text-xs">
               Aurelia Syifa Indrayana
             </h1>
             <div></div>
@@ -213,7 +217,7 @@ const Character = () => {
               onCancel={() => setCharacterFor(false)}
               onOk={() => setCharacterFor(!characterFor)}
             >
-              <p className="font-bold my-3">Aurelia Syifa Indrayana</p>
+              <p className="font-bold my-3 text-xs">Aurelia Syifa Indrayana</p>
               <p className="text-[10px]">
                 Halo, cipa disini!! Kalo menurut gue ya kerja di Cretivox tuh
                 kaya lagunya Hindia “Kapan terakhir kalo kamu dapat tertidur
@@ -251,7 +255,9 @@ const Character = () => {
             alt={Nadiras}
           />
           <div className="absolute top-0 left-0 bottom-0 right-0 grid place-content-center bg-black/40">
-            <h1 className="font-bold text-center text-white">Nadira Refiana</h1>
+            <h1 className="font-bold text-center text-white text-xs">
+              Nadira Refiana
+            </h1>
             <p className="text-xs text-white text-center">
               Intern Content Creator
             </p>
@@ -295,7 +301,9 @@ const Character = () => {
             alt={Dinda}
           />
           <div className="absolute top-0 left-0 bottom-0 right-0 grid place-content-center bg-black/40">
-            <h1 className="font-bold text-white text-center">Dinda Saddono</h1>
+            <h1 className="font-bold text-white text-center text-xs">
+              Dinda Saddono
+            </h1>
             <p className="text-xs text-center text-white">Intern CopyWritter</p>
             <Button
               onClick={() => setCharacterSix(!characterSix)}
@@ -341,7 +349,7 @@ const Character = () => {
             alt={Daffa}
           />
           <div className="absolute  top-0 left-0 right-0 bottom-0 grid place-content-center bg-black/40">
-            <h1 className="font-bold text-center text-white">
+            <h1 className="font-bold text-center text-white text-xs">
               Muhammad Daffa Syabana Tiandi
             </h1>
             <p className="text-center text-xs text-white">
@@ -358,7 +366,7 @@ const Character = () => {
               onCancel={() => setCharacterSeven(false)}
               onOk={() => setCharacterSeven(!characterSeven)}
             >
-              <p className="font-bold">Muhammad Daffa Syabana Tiandi</p>
+              <p className="font-bold text-xs">Muhammad Daffa Syabana Tiandi</p>
               <p className="text-xs my-3">
                 Magang disini tuh bener kaya rollercoaster. Tanggung jawab dari
                 pekerjaan yang di berikan ke anak magang itu bisa dibilang
@@ -382,7 +390,7 @@ const Character = () => {
             alt={Kenny}
           />
           <div className="absolute top-0 left-0 bottom-0 right-0 grid place-content-center bg-black/40">
-            <h1 className="font-bold text-center text-white">
+            <h1 className="font-bold text-center text-white text-xs">
               Kenny Bianco Kotambunan
             </h1>
             <p className="text-center text-xs text-white">
@@ -399,7 +407,7 @@ const Character = () => {
               onCancel={() => setCharacterEight(false)}
               onOk={() => setCharacterEight(!characterEight)}
             >
-              <p className="font-bold">Kenny Bianco Kotambunan</p>
+              <p className="font-bold text-xs">Kenny Bianco Kotambunan</p>
               <p className="text-xs my-3">
                 Sebagai intern KOL Specialist di Cretivox, banyak hal yang gue
                 dapetin. Mulai dari pengalaman yang seru2, pengalaman untuk
@@ -426,7 +434,7 @@ const Character = () => {
             alt={Kibil}
           />
           <div className="absolute top-0 left-0 right-0 bottom-0 grid place-content-center bg-black/40">
-            <h1 className="font-bold text-center text-white">
+            <h1 className="font-bold text-center text-white text-xs">
               Nabila Nada Azizah
             </h1>
             <p className="text-xs text-white text-center">
@@ -443,7 +451,7 @@ const Character = () => {
               onCancel={() => setCharacterNine(false)}
               onOk={() => setCharacterNine(!characterNine)}
             >
-              <p className="font-bold">Nabila Nada Azizah</p>
+              <p className="font-bold text-xs">Nabila Nada Azizah</p>
               <p className="my-3 text-xs">
                 “Seru bangett magang di cretivox, pengen juga deh” kata
                 temen-temen yang ngeliat story gue dan juga komen-komen netizen
@@ -500,7 +508,7 @@ const Character = () => {
             alt={Opal}
           />
           <div className="absolute top-0 left-0 right-0 bottom-0 grid place-content-center bg-black/40">
-            <h1 className="font-bold text-center text-white">
+            <h1 className="font-bold text-center text-white text-xs">
               Mochamad Naufal Aufa Rifqi
             </h1>
             <p className="text-xs text-center text-white">
@@ -517,7 +525,7 @@ const Character = () => {
               onCancel={() => setCharacterTen(false)}
               onOk={() => setCharacterTen(!characterTen)}
             >
-              <p className="font-bold">Mochamad Naufal Aufa Rifqi</p>
+              <p className="font-bold text-xs">Mochamad Naufal Aufa Rifqi</p>
               <p className="text-xs my-3">
                 Magang di cretivox membuat gue jauh lebih better dari sebelumnya
                 buat ngebentuk good habbits , disini juga lo bakal dibimbing dan
@@ -540,7 +548,7 @@ const Character = () => {
             alt={Valez}
           />
           <div className="absolute top-0 left-0 bottom-0 right-0 grid place-content-center bg-black/40">
-            <h1 className="font-bold text-center text-white ">
+            <h1 className="font-bold text-center text-white text-xs ">
               Valezka Eugenie
             </h1>
             <p className="text-xs text-white text-center">
@@ -557,7 +565,7 @@ const Character = () => {
               onCancel={() => setCharacter11(false)}
               onOk={() => setCharacter11(!character11)}
             >
-              <p className="font-bold">Valezka Eugenie</p>
+              <p className="font-bold text-xs">Valezka Eugenie</p>
               <p className="text-xs my-3">
                 Magang disini tuh jangan berharap cuman main-main doang terus
                 pulang. Disini lo bener bener diajarin dan dibawa langsung
@@ -585,7 +593,7 @@ const Character = () => {
             alt={Daffiz}
           />
           <div className="absolute top-0 left-0 right-0 bottom-0 grid place-content-center bg-black/40">
-            <h1 className="font-bold text-white text-center">
+            <h1 className="font-bold text-white text-center text-xs">
               Muhammad Naufal Hadafiz
             </h1>
             <p className="text-xs text-center text-white">
@@ -602,7 +610,7 @@ const Character = () => {
               onCancel={() => setCharacter12(false)}
               onOk={() => setCharacter12(!character12)}
             >
-              <p className="font-bold">Muhammad Naufal Hadafiz</p>
+              <p className="font-bold text-xs">Muhammad Naufal Hadafiz</p>
               <p className="text-xs my-3">
                 Sebagai anak magang produksi yang kuliahnya di jurusan hubungan
                 internasioal, gue merasa minder awalnya karena jurusan gue yang
@@ -634,7 +642,9 @@ const Character = () => {
             alt={Fawwaz}
           />
           <div className="absolute top-0 left-0 right-0 bottom-0 grid place-content-center place-items-center bg-black/40">
-            <h1 className="font-bold text-white">Muhammad Fawwaz Wijaya</h1>
+            <h1 className="font-bold text-white text-xs">
+              Muhammad Fawwaz Wijaya
+            </h1>
             <p className="text-xs text-center text-white">
               Intern Video Editor
             </p>
@@ -649,7 +659,7 @@ const Character = () => {
               onCancel={() => setCharacter13(false)}
               onOk={() => setCharacter13(!character13)}
             >
-              <p className="font-bold">Muhammad Fawwaz Wijaya</p>
+              <p className="font-bold text-xs">Muhammad Fawwaz Wijaya</p>
               <p className="text-xs my-3">
                 Di Cretivox gue diberi kesempatan buat tuangin semua keahlian
                 gue dalam editing video terus juga dikasih kesempatan buat
@@ -680,7 +690,9 @@ const Character = () => {
               alt={Iqi}
             />
             <div className="absolute grid top-0 bottom-0 left-0 right-0 place-content-center bg-black/40">
-              <h1 className="font-bold text-white">Muhammad Rifqi Zafran</h1>
+              <h1 className="font-bold text-white text-xs">
+                Muhammad Rifqi Zafran
+              </h1>
               <p className="text-xs text-center text-white">
                 Intern Grapich Design
               </p>
@@ -700,7 +712,7 @@ const Character = () => {
               alt={Iqi}
             />
             <div className="absolute top-0 left-0 bottom-0 right-0 grid place-content-center bg-black/40">
-              <h1 className="font-bold text-center text-white">
+              <h1 className="font-bold text-center text-white text-xs">
                 Nurul Fadilah
               </h1>
               <p className="text-xs text-center text-white">
@@ -722,7 +734,7 @@ const Character = () => {
               className="border p-2 rounded-lg m-auto  shadow-sm shadow-slate-600"
             />
             <div className="absolute top-0 left-0 bottom-0 right-0 grid place-content-center bg-black/40">
-              <h1 className="font-bold text-center text-white">
+              <h1 className="font-bold text-center text-white text-xs">
                 Arrizky Putra Ramadhan
               </h1>
               <p className="text-xs text-center text-white">
@@ -744,7 +756,7 @@ const Character = () => {
               alt={Cipa}
             />
             <div className="absolute top-0 left-0 bottom-0 right-0 grid place-content-center bg-black/40">
-              <h1 className="font-bold text-center text-white">
+              <h1 className="font-bold text-center text-white text-xs">
                 Aurelia Syifa Indrayana
               </h1>
               <p className="text-xs text-white">Intern Content Creator</p>
@@ -764,7 +776,7 @@ const Character = () => {
               alt={Nadiras}
             />
             <div className="absolute top-0 left-0 bottom-0 right-0 grid place-content-center bg-black/40">
-              <h1 className="font-bold text-center text-white">
+              <h1 className="font-bold text-center text-white text-xs">
                 Nadira Refiana
               </h1>
               <p className="text-xs text-white">Intern Content Creator</p>
@@ -784,7 +796,9 @@ const Character = () => {
               alt={Dinda}
             />
             <div className="absolute top-0 left-0 bottom-0 right-0 grid place-content-center bg-black/40">
-              <h1 className="font-bold text-white m-auto">Dinda Saddono</h1>
+              <h1 className="font-bold text-white m-auto text-xs">
+                Dinda Saddono
+              </h1>
               <p className="text-xs text-center text-white">
                 Intern CopyWritter
               </p>
@@ -804,7 +818,7 @@ const Character = () => {
               alt={Daffa}
             />
             <div className="absolute top-0 left-0 right-0 bottom-0 grid place-content-center bg-black/40">
-              <h1 className="font-bold text-center text-white">
+              <h1 className="font-bold text-center text-white text-xs">
                 Muhammad Daffa Syabana Tiandi
               </h1>
               <p className="text-center text-xs text-white">
@@ -826,7 +840,7 @@ const Character = () => {
               alt={Kenny}
             />
             <div className="absolute top-0 left-0 bottom-0 right-0 grid place-content-center bg-black/40">
-              <h1 className="font-bold text-center text-white">
+              <h1 className="font-bold text-center text-white text-xs">
                 Kenny Kotambunan
               </h1>
               <p className="text-center text-xs text-white">
@@ -848,7 +862,7 @@ const Character = () => {
               alt={Kibil}
             />
             <div className="absolute top-0 left-0 right-0 bottom-0 grid place-content-center bg-black/40">
-              <h1 className="font-bold text-center text-white">
+              <h1 className="font-bold text-center text-white text-xs">
                 Nabila Nada Azizah
               </h1>
               <p className="text-xs text-white">Intern Graphic Design</p>
@@ -868,7 +882,7 @@ const Character = () => {
               alt={Opal}
             />
             <div className="absolute top-0 left-0 right-0 bottom-0 grid place-content-center bg-black/40">
-              <h1 className="font-bold text-center text-white">
+              <h1 className="font-bold text-center text-white text-xs">
                 Mochamad Naufal Aufa Rifqi
               </h1>
               <p className="text-xs text-center text-white">
@@ -890,7 +904,7 @@ const Character = () => {
               alt={Valez}
             />
             <div className="absolute top-0 left-0 bottom-0 right-0 grid place-content-center bg-black/40">
-              <h1 className="font-bold text-center text-white">
+              <h1 className="font-bold text-center text-white text-xs">
                 Valezka Enguine
               </h1>
               <p className="text-xs text-white">Intern Content Creator</p>
@@ -910,7 +924,9 @@ const Character = () => {
               alt={Daffiz}
             />
             <div className="absolute top-0 left-0 right-0 bottom-0 grid place-content-center bg-black/40">
-              <h1 className="font-bold text-white">Muhammad Naufal Hadafiz</h1>
+              <h1 className="font-bold text-white text-xs">
+                Muhammad Naufal Hadafiz
+              </h1>
               <p className="text-xs text-center text-white">
                 Intern Video Production
               </p>
@@ -930,7 +946,9 @@ const Character = () => {
               alt={Fawwaz}
             />
             <div className="absolute top-0 left-0 right-0 bottom-0 grid place-content-center place-items-center bg-black/40">
-              <h1 className="font-bold text-white">Muhammad Fawwaz Wijaya</h1>
+              <h1 className="font-bold text-white text-xs">
+                Muhammad Fawwaz Wijaya
+              </h1>
               <p className="text-xs text-center text-white">
                 Intern Video Editor
               </p>

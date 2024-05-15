@@ -5,6 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import BatchSeImageJumbotrom from "../assets/image/seFlowerHd.jpg";
 import "swiper/css";
 import "swiper/css/pagination";
+import CBNlogo from "../assets/image/cbn.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -142,10 +143,11 @@ const Jumbotron = ({ isDarkMode }) => {
             data-aos-mirror="true"
             className=" m-auto my-3"
           >
-            <h1 className="text-2xl  text-center  translate-y-[-2px] sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl  font-semibold sm:translate-x-1 ">
-              RESISTANCE IN BLOOM
-            </h1>
-            <div className="w-[20px]  sm:w-[30px] translate-x-[-2px] sm:translate-x-1 lg:translate-x-2 shadow-sm shadow-slate-800 h-1 bg-white" />
+            <img
+              className="w-full h-full object-contain max-w-[150px] max-h-[150px]"
+              src={CBNlogo}
+              alt={CBNlogo}
+            />
           </div>
 
           <div
@@ -163,7 +165,7 @@ const Jumbotron = ({ isDarkMode }) => {
               data-aos="flip-down"
               className="text-center text-[10px] sm:text-sm"
             >
-              We are special edition.
+              Batch SE ( Special Edition )
             </p>
             <div className="flex items-center justify-between">
               <p className="text-[10px]">EST 2023</p>

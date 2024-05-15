@@ -4,13 +4,7 @@ const Farewell = () => {
   return (
     <div className="w-screen max-w-[85vw] m-auto min-h-screen grid place-content-center place-items-center">
       <p className="font-bold text-center text-2xl my-3">Farewell</p>
-      <video
-        className="rounded-lg"
-        loop
-        controls
-        src={VideoShootHiring}
-        autoPlay={true}
-      >
+      <video className="rounded-lg" loop controls src={VideoShootHiring}>
         <source src={VideoShootHiring} />
       </video>
       <p className="text-center my-3 text-[10px] sm:text-sm">
