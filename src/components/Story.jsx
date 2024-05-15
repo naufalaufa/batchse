@@ -18,9 +18,11 @@ import SectionStoryImageFor from "../assets/image/batchSEfor.jpg";
 import UltahKennyImage from "../assets/image/ultahKenny.jpg";
 import ZeinRoomImage from "../assets/image/zeinRoom.jpg";
 import FotoAwan from "../assets/image/fotoImageAwan.jpg";
+import KotoKepala from "../assets/image/hehekepala.jpg";
+import Bejejer from "../assets/image/bejejer.png";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import { Image } from "antd";
+import { Image, Watermark } from "antd";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -255,7 +257,7 @@ const Story = () => {
         className="grid grid-cols-3 place-content-center place-items-center max-w-[90vw] m-auto gap-5 my-20"
       >
         <Image
-          className="aspect-square object-cover"
+          className="aspect-square object-cover rounded-lg"
           src={FotoAwan}
           alt={FotoAwan}
         />
@@ -265,9 +267,9 @@ const Story = () => {
           alt={ImageBatchSe11}
         />
         <Image
-          className="aspect-square object-cover"
-          src={FotoAwan}
-          alt={FotoAwan}
+          className="aspect-square object-cover rounded-lg"
+          src={KotoKepala}
+          alt={KotoKepala}
         />
       </div>
       <p className="text-[8px] my-8 sm:text-sm text-center">
@@ -278,19 +280,20 @@ const Story = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="1000"
-        className="grid grid-cols-5 gap-4 my-20"
+        className="grid grid-cols-5 gap-4 my-20 p-3"
       >
-        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
-        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
-        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
-        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
-        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
-        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
-        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
-        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
-        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
-        <Image src={ImageBatchSe11} alt={ImageBatchSe11} />
+        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
+        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
+        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
+        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
+        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
+        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
+        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
+        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
+        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
+        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
       </div>
+
       <div className="w-screen max-w-[90%] m-auto">
         <p className="text-[10px] text-center sm:text-sm">
           Suka dan Duka Dilalui Bersama, Bukan Sekedar Teman Kerja, Akan Tetapi

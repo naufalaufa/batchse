@@ -130,7 +130,7 @@ const Jumbotron = ({ isDarkMode }) => {
       >
         <div className="relative">
           <img
-            className="object-cover opacity-100 h-full sm:h-[90vh]  min-h-screen w-screen bg-center"
+            className="object-cover  opacity-100 h-full sm:h-[90vh]  min-h-screen w-screen bg-center"
             src={BatchSeImageJumbotrom}
             alt={BatchSeImageJumbotrom}
           />

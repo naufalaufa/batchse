@@ -1,8 +1,25 @@
 import { Image } from "antd";
 import SiapaImage from "../assets/image/siapaImageOne.jpg";
 import { FaYoutube } from "react-icons/fa";
+import { useEffect, useRef } from "react";
+import gsap from "gsap";
 
 const SiapaBatchSE = () => {
+  const SiapaContainerRef = useRef(null);
+  const tl = gsap.timeline();
+
+  useEffect(() => {
+    tl.to(SiapaContainerRef.current, {
+      scrollTrigger: {
+        scrub: 1,
+        trigger: SiapaContainerRef.current,
+      },
+      scale: 1.1,
+      opacity: 1,
+      skewY: -4,
+    });
+  });
+
   return (
     <>
       <section
@@ -10,12 +27,14 @@ const SiapaBatchSE = () => {
         data-aos-duration="1000"
         className="grid min-h-screen place-content-center my-32 place-items-center "
       >
-        <h1 className="my-5 font-bold text-2xl ">Siapa?</h1>
-        <div className="w-screen max-w-[95vw] m-auto">
-          <Image className="rounded-lg" src={SiapaImage} alt={SiapaImage} />
+        <h1 className="my-9 font-bold text-2xl  ">Siapa?</h1>
+        <div>
+          <div ref={SiapaContainerRef} className="w-screen max-w-[85vw] m-auto">
+            <Image className="rounded-lg" src={SiapaImage} alt={SiapaImage} />
+          </div>
           <p
             data-aos="fade-up"
-            className="text-[10px] my-5 max-w-[90%] m-auto text-center sm:text-sm"
+            className="text-[10px] my-5 max-w-[90%] m-auto text-center sm:text-sm mt-20"
           >
             Nah ini dia momen jujur-jujuran di shooting video “SIAPA?”. Malam
             sebelum shooting video “SIAPA?” kita baru aja selesai shooting video
