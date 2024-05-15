@@ -22,7 +22,7 @@ import KotoKepala from "../assets/image/hehekepala.jpg";
 import Bejejer from "../assets/image/bejejer.png";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import { Image, Watermark } from "antd";
+import { Image } from "antd";
 
 gsap.registerPlugin(ScrollTrigger);
 

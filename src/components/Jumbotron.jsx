@@ -5,6 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import BatchSeImageJumbotrom from "../assets/image/seFlowerHd.jpg";
 import "swiper/css";
 import "swiper/css/pagination";
+import PropTypes from "prop-types";
 import CBNlogo from "../assets/image/cbn.png";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -284,6 +285,10 @@ const Jumbotron = ({ isDarkMode }) => {
       </div>
     </>
   );
+};
+
+Jumbotron.propTypes = {
+  isDarkMode: PropTypes.any,
 };
 
 export default Jumbotron;

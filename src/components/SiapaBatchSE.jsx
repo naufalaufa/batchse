@@ -27,7 +27,7 @@ const SiapaBatchSE = () => {
         data-aos-duration="1000"
         className="grid min-h-screen place-content-center my-32 place-items-center "
       >
-        <h1 className="my-9 font-bold text-2xl  ">Siapa?</h1>
+        <h1 className="my-9 font-bold text-2xl">Siapa?</h1>
         <div>
           <div ref={SiapaContainerRef} className="w-screen max-w-[85vw] m-auto">
             <Image className="rounded-lg" src={SiapaImage} alt={SiapaImage} />

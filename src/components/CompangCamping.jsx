@@ -3,13 +3,10 @@ import CompangCampingImageTwo from "../assets/image/campings.jpg";
 import CompangCampingImageOne from "../assets/image/compangCamping.jpg";
 import ScrollTrigger from "gsap/src/ScrollTrigger";
 import gsap from "gsap";
-import { useRef } from "react";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const CompangCamping = () => {
-  const containerRef = useRef(null);
-  const container = gsap.timeline();
   return (
     <>
       <div

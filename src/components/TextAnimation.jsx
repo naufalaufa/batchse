@@ -49,6 +49,7 @@ const TextAnimation = () => {
             <img
               ref={textAnimationRef}
               src={SiapaImage}
+              alt={SiapaImage}
               className="w-[450px] h-[450px] m-auto rounded-lg object-cover shadow-md "
             ></img>
             <div className="absolute grid  place-content-center place-items-center bg-black/20 top-0 bottom-0 left-0 right-0">
