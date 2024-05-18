@@ -11,6 +11,8 @@ import CompangCamping from "./components/CompangCamping";
 import Farewell from "./components/Farewell";
 import TextAnimation from "./components/TextAnimation";
 import DuaTipeAnimation from "./components/DuaTipeAnimation";
+import ParalaxText from "./components/ParalaxText";
+import AnimationinFixed from "./components/AnimationinFixed";
 AOS.init();
 
 const App = () => {
@@ -24,6 +26,8 @@ const App = () => {
         <CompangCamping />
         <DuaTipeAnimation />
         <TextAnimation />
+        <AnimationinFixed />
+        <ParalaxText />
         <Farewell />
         <Sidebar />
         <Character />

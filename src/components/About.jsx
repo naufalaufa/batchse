@@ -8,9 +8,9 @@ const About = () => {
     >
       <div className="mt-3 p-3">
         <video
-          controls
-          autoPlay
+          autoPlay={true}
           loop
+          controls
           className="w-[370px] m-auto h-full"
           src={Video}
         >

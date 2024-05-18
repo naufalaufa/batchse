@@ -7,7 +7,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import PropTypes from "prop-types";
 import CBNlogo from "../assets/image/cbn.png";
-
 gsap.registerPlugin(ScrollTrigger);
 
 const Jumbotron = ({ isDarkMode }) => {
