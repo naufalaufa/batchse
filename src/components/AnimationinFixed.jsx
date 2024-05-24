@@ -57,7 +57,7 @@ const AnimationinFixed = () => {
               >
                 <div className="bg-yellow-500 grid place-content-center rounded-full w-[40px] shadow-sm shadow-slate-600 z-[9999999999] h-[40px]">
                   <span>
-                    <BsFlower1 color="white" />
+                    <BsFlower1 className="animate-spin" color="white" />
                   </span>
                 </div>
               </div>

@@ -280,17 +280,45 @@ const Story = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="1000"
-        className="grid grid-cols-5 gap-4 my-20 p-3"
+        className="columns-5 gap-4 my-20 p-3"
       >
         <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
-        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
-        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
-        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
-        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
-        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
-        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
-        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
-        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
+        <Image
+          className="rounded-md"
+          src={ImageBatchSe11}
+          alt={ImageBatchSe11}
+        />
+        <Image
+          className="rounded-md"
+          src={ImageBatchSe11}
+          alt={ImageBatchSe11}
+        />
+        <Image
+          className="rounded-md"
+          src={ImageBatchSe11}
+          alt={ImageBatchSe11}
+        />
+        <Image
+          className="rounded-md"
+          src={ImageBatchSe11}
+          alt={ImageBatchSe11}
+        />
+        <Image
+          className="rounded-md"
+          src={ImageBatchSe11}
+          alt={ImageBatchSe11}
+        />
+        <Image
+          className="rounded-md"
+          src={ImageBatchSe11}
+          alt={ImageBatchSe11}
+        />
+        <Image
+          className="rounded-md"
+          src={ImageBatchSe11}
+          alt={ImageBatchSe11}
+        />
+        <Image className="rounded-md" src={ImageBatchSe12} alt={Bejejer} />
         <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
       </div>
 

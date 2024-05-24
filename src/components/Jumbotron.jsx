@@ -3,8 +3,6 @@ import gsap from "gsap";
 import { useEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import BatchSeImageJumbotrom from "../assets/image/seFlowerHd.jpg";
-import "swiper/css";
-import "swiper/css/pagination";
 import PropTypes from "prop-types";
 import CBNlogo from "../assets/image/cbn.png";
 gsap.registerPlugin(ScrollTrigger);
@@ -22,6 +20,24 @@ const Jumbotron = ({ isDarkMode }) => {
   const tenTextRef = useRef(null);
   const elevenTextRef = useRef(null);
   const tertinextRef = useRef(null);
+  const whiteToBlack = useRef(null);
+  const whiteToBlackTwo = useRef(null);
+  const whiteToBlackThree = useRef(null);
+  const whiteToBlackFor = useRef(null);
+  const whiteToBlackFive = useRef(null);
+  const whiteToBlackSix = useRef(null);
+  const whiteToBlackSeven = useRef(null);
+  const whiteToBlackEight = useRef(null);
+  const whiteToBlackNine = useRef(null);
+  const whiteToBlackTen = useRef(null);
+  const whiteToBlackEleven = useRef(null);
+  const whiteToBlackForTen = useRef(null);
+  const whiteToBlackNineTeen = useRef(null);
+  const whiteToBlackTweenTen = useRef(null);
+  const whiteToBlackEightTeen = useRef(null);
+  const whiteToBlackSevenTeen = useRef(null);
+  const RtoBlackAndWhite = useRef(null);
+  const RtoBlackAndWhiteTwo = useRef(null);
 
   useEffect(() => {
     gsap.to(oneTextRef.current, {
@@ -29,97 +45,336 @@ const Jumbotron = ({ isDarkMode }) => {
         trigger: oneTextRef.current,
         scrub: true,
       },
-      x: 35,
+      x: 45,
     });
     gsap.to(twoTextRef.current, {
       scrollTrigger: {
         trigger: twoTextRef.current,
         scrub: true,
       },
-      x: 35,
+      x: 45,
     });
     gsap.to(threeTextRef.current, {
       scrollTrigger: {
         trigger: threeTextRef.current,
         scrub: true,
       },
-      x: 35,
+      x: 45,
     });
     gsap.to(forTextRef.current, {
       scrollTrigger: {
         trigger: forTextRef.current,
         scrub: true,
       },
-      x: -35,
+      x: -45,
     });
     gsap.to(fiveTextRef.current, {
       scrollTrigger: {
         trigger: fiveTextRef.current,
         scrub: true,
       },
-      x: -35,
+      x: -45,
     });
     gsap.to(sixTextRef.current, {
       scrollTrigger: {
         trigger: sixTextRef.current,
         scrub: true,
       },
-      x: -35,
+      x: -45,
     });
     gsap.to(sixTextRef.current, {
       scrollTrigger: {
         trigger: sixTextRef.current,
         scrub: true,
       },
-      x: -35,
+      x: -45,
     });
     gsap.to(sevenTextRef.current, {
       scrollTrigger: {
         trigger: sevenTextRef.current,
         scrub: true,
       },
-      x: 35,
+      x: 45,
     });
     gsap.to(eightTextRef.current, {
       scrollTrigger: {
         trigger: eightTextRef.current,
         scrub: true,
       },
-      x: 35,
+      x: 45,
     });
     gsap.to(nineTextRef.current, {
       scrollTrigger: {
         trigger: nineTextRef.current,
         scrub: true,
       },
-      x: 35,
+      x: 45,
     });
     gsap.to(tenTextRef.current, {
       scrollTrigger: {
         trigger: tenTextRef.current,
         scrub: true,
       },
-      x: -35,
+      x: -45,
     });
     gsap.to(elevenTextRef.current, {
       scrollTrigger: {
         trigger: elevenTextRef.current,
         scrub: true,
       },
-      x: -35,
+      x: -45,
     });
     gsap.to(tertinextRef.current, {
       scrollTrigger: {
         trigger: tertinextRef.current,
         scrub: true,
       },
-      x: -35,
+      x: -45,
+    });
+  });
+
+  const textJumbotronAnimation = useRef(null);
+  const textRJumbotronAnimation = useRef(null);
+  const textJumbotronTwoAnimation = useRef(null);
+  const textJumbotronOne = useRef(null);
+
+  useEffect(() => {
+    gsap.to(textJumbotronAnimation.current, {
+      scrollTrigger: {
+        trigger: textJumbotronAnimation.current,
+        scrub: true,
+      },
+      scale: 0.8,
     });
   });
 
   useEffect(() => {
-    const Yaxis = window.scrollY;
-    console.log(Yaxis);
+    gsap.to(textJumbotronOne.current, {
+      scrollTrigger: {
+        trigger: textJumbotronOne.current,
+        scrub: true,
+      },
+      width: "100%",
+      height: "100px",
+    });
+  }, []);
+
+  useEffect(() => {
+    gsap.to(textJumbotronTwoAnimation.current, {
+      scrollTrigger: {
+        trigger: textJumbotronTwoAnimation.current,
+        scrub: true,
+      },
+      scale: 1,
+      width: "30px",
+      height: "30px",
+      borderRadius: "50%",
+
+      rotate: 10,
+      position: "absolute",
+      top: 0,
+      left: 0,
+      bottom: 0,
+      right: 0,
+    });
+  }, []);
+
+  useEffect(() => {
+    gsap.to(textRJumbotronAnimation.current, {
+      scrollTrigger: {
+        trigger: textRJumbotronAnimation.current,
+        scrub: true,
+      },
+      color: "yellow",
+      scale: 1.2,
+    });
+    gsap.to(RtoBlackAndWhite.current, {
+      scrollTrigger: {
+        trigger: RtoBlackAndWhite.current,
+        scrub: true,
+        start: "top 30%",
+        end: "center 20%",
+      },
+      color: "yellow",
+      opacity: 1,
+      scale: 1.2,
+    });
+    gsap.to(whiteToBlackTwo.current, {
+      scrollTrigger: {
+        trigger: whiteToBlackTwo.current,
+        scrub: true,
+        start: "top 30%",
+        end: "center 20%",
+      },
+      color: "yellow",
+      opacity: 1,
+    });
+    gsap.to(whiteToBlackThree.current, {
+      scrollTrigger: {
+        trigger: whiteToBlackThree.current,
+        scrub: true,
+        start: "top 30%",
+        end: "center 20%",
+      },
+
+      color: "yellow",
+      opacity: 1,
+    });
+    gsap.to(whiteToBlackFor.current, {
+      scrollTrigger: {
+        trigger: whiteToBlackFor.current,
+        scrub: true,
+        start: "top 30%",
+        end: "center 20%",
+      },
+      color: "yellow",
+      opacity: 1,
+      scale: 1.2,
+    });
+    gsap.to(whiteToBlackFive.current, {
+      scrollTrigger: {
+        trigger: whiteToBlackFive.current,
+        scrub: true,
+        start: "top 30%",
+        end: "center 20%",
+      },
+      color: "yellow",
+      opacity: 1,
+      scale: 1.2,
+    });
+    gsap.to(whiteToBlackSix.current, {
+      scrollTrigger: {
+        trigger: whiteToBlackSix.current,
+        scrub: true,
+        start: "top 30%",
+        end: "center 20%",
+      },
+      color: "yellow",
+      opacity: 1,
+      scale: 1.2,
+    });
+    gsap.to(whiteToBlackSeven.current, {
+      scrollTrigger: {
+        trigger: whiteToBlackSeven.current,
+        scrub: true,
+        start: "top 30%",
+        end: "center 20%",
+      },
+      color: "yellow",
+      opacity: 1,
+      scale: 1.2,
+    });
+    gsap.to(whiteToBlackEight.current, {
+      scrollTrigger: {
+        trigger: whiteToBlackEight.current,
+        scrub: true,
+        start: "top 30%",
+        end: "center 20%",
+      },
+      color: "yellow",
+      opacity: 1,
+      scale: 1.2,
+    });
+    gsap.to(whiteToBlackNine.current, {
+      scrollTrigger: {
+        trigger: whiteToBlackNine.current,
+        scrub: true,
+        start: "top 30%",
+        end: "center 20%",
+      },
+      color: "yellow",
+      opacity: 1,
+      scale: 1.2,
+    });
+    gsap.to(whiteToBlackTen.current, {
+      scrollTrigger: {
+        trigger: whiteToBlackTen.current,
+        scrub: true,
+        start: "top 30%",
+        end: "center 20%",
+      },
+      color: "yellow",
+      opacity: 1,
+      scale: 1.2,
+    });
+    gsap.to(whiteToBlackEleven.current, {
+      scrollTrigger: {
+        trigger: whiteToBlackEleven.current,
+        scrub: true,
+        start: "top 30%",
+        end: "center 20%",
+      },
+      color: "yellow",
+      opacity: 1,
+      scale: 1.2,
+    });
+    gsap.to(whiteToBlackTweenTen.current, {
+      scrollTrigger: {
+        trigger: whiteToBlackTweenTen.current,
+        scrub: true,
+        start: "top 30%",
+        end: "center 20%",
+      },
+      color: "yellow",
+      opacity: 1,
+      scale: 1.2,
+    });
+    gsap.to(whiteToBlackForTen.current, {
+      scrollTrigger: {
+        trigger: whiteToBlackForTen.current,
+        scrub: true,
+        start: "top 30%",
+        end: "center 20%",
+      },
+      color: "yellow",
+      opacity: 1,
+      scale: 1.2,
+    });
+    gsap.to(whiteToBlackNineTeen.current, {
+      scrollTrigger: {
+        trigger: whiteToBlackNineTeen.current,
+        scrub: true,
+        start: "top 30%",
+        end: "center 20%",
+      },
+      color: "yellow",
+      opacity: 1,
+      scale: 1.2,
+    });
+    gsap.to(whiteToBlackEightTeen.current, {
+      scrollTrigger: {
+        trigger: whiteToBlackEightTeen.current,
+        scrub: true,
+        start: "top 30%",
+        end: "center 20%",
+      },
+      color: "yellow",
+      opacity: 1,
+      scale: 1.2,
+    });
+    gsap.to(whiteToBlackSevenTeen.current, {
+      scrollTrigger: {
+        trigger: whiteToBlackSevenTeen.current,
+        scrub: true,
+        start: "top 30%",
+        end: "center 20%",
+      },
+      color: "yellow",
+      opacity: 1,
+      scale: 1.2,
+    });
+    gsap.to(RtoBlackAndWhiteTwo.current, {
+      scrollTrigger: {
+        trigger: RtoBlackAndWhiteTwo.current,
+        scrub: true,
+        start: "top 30%",
+        end: "center 20%",
+      },
+      color: "yellow",
+      opacity: 1,
+
+      scale: 1.2,
+    });
   });
 
   return (
@@ -130,6 +385,7 @@ const Jumbotron = ({ isDarkMode }) => {
       >
         <div className="relative">
           <img
+            ref={textJumbotronAnimation}
             className="object-cover  opacity-100 h-full sm:h-[90vh]  min-h-screen w-screen bg-center"
             src={BatchSeImageJumbotrom}
             alt={BatchSeImageJumbotrom}
@@ -144,11 +400,15 @@ const Jumbotron = ({ isDarkMode }) => {
             className=" m-auto my-3"
           >
             <img
-              className="w-full h-full object-contain max-w-[150px] max-h-[150px]"
+              className="w-full  h-full object-contain max-w-[150px] max-h-[150px]"
               src={CBNlogo}
               alt={CBNlogo}
             />
           </div>
+          <div
+            ref={textJumbotronOne}
+            className="min-h-screen grid place-content-center absolute top-0 left-0 right-0 bottom-0  w-screen place-items-center bg-black/45 "
+          ></div>
 
           <div
             data-aos-mirror="true"
@@ -156,20 +416,101 @@ const Jumbotron = ({ isDarkMode }) => {
             data-aos-duration="1000"
             className="relative"
           >
-            <h1 className="text-2xl  translate-y-[-1px] sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-serif sm:translate-x-1  ">
-              RESISTANCE IN BLOOM
-            </h1>
-            <div className="w-[20px] sm:w-[30px] shadow-sm shadow-slate-800 h-1 bg-white" />
-            <p
-              data-aos-duration="2000"
-              data-aos="flip-down"
-              className="text-center text-[10px] sm:text-sm"
+            <h1
+              ref={textJumbotronAnimation}
+              className="text-2xl  translate-y-[-1px] sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-serif sm:translate-x-1 text-center "
             >
-              Batch SE ( Special Edition )
-            </p>
-            <div className="flex items-center justify-between">
-              <p className="text-[10px]">EST 2023</p>
-              <p className="text-[10px]">CRETIVOX INTERNSHIP EXPERIENCE</p>
+              <span className=" text-white " ref={RtoBlackAndWhiteTwo}>
+                R
+              </span>
+              <span ref={RtoBlackAndWhite} className="text-white">
+                E
+              </span>
+              <span ref={whiteToBlackTwo} className="text-white">
+                S
+              </span>
+              <span ref={whiteToBlackThree} className="text-white">
+                I
+              </span>
+              <span ref={whiteToBlackFor} className="text-white">
+                S
+              </span>
+              <span ref={whiteToBlackFive} className="text-white">
+                T
+              </span>
+              <span ref={whiteToBlackSix} className="text-white">
+                A
+              </span>
+              <span ref={whiteToBlackSeven} className="text-white">
+                N
+              </span>
+              <span ref={whiteToBlackEight} className="text-white">
+                C
+              </span>
+              <span ref={whiteToBlackNine} className="text-white">
+                E
+              </span>
+              <span ref={whiteToBlack} className="text-white">
+                {" "}
+              </span>
+              <span ref={whiteToBlackTen} className="text-white">
+                I
+              </span>
+              <span ref={whiteToBlackEleven} className="text-white">
+                N
+              </span>
+              <span> </span>
+              <span ref={whiteToBlackTweenTen} className="text-white">
+                B
+              </span>
+              <span ref={whiteToBlackForTen} className="text-white">
+                L
+              </span>
+              <span ref={whiteToBlackNineTeen} className="text-white">
+                O
+              </span>
+              <span ref={whiteToBlackEightTeen} className="text-white">
+                O
+              </span>
+              <span ref={whiteToBlackSevenTeen} className="text-white">
+                M
+              </span>
+            </h1>
+            <div className="grid grid-cols-4 max-w-[500px] m-auto my-1 place-content-center place-items-center">
+              <p className="text-[10px]  whitespace-nowrap  ">
+                Muhammad Rifqi Zafran
+              </p>
+              <p className="text-[10px] whitespace-nowrap ">Nurul Fadilah</p>
+              <p className="text-[10px] whitespace-nowrap ">
+                Arrizky Putra Ramadhan
+              </p>
+              <p className="text-[10px] whitespace-nowrap ">
+                Aurelia Syifa Indrayana
+              </p>
+            </div>
+            <div className="grid grid-cols-4 my-2 max-w-[900px] m-auto place-content-center place-items-center">
+              <p className="text-[10px] whitespace-nowrap ">Nadira Refiana</p>
+              <p className="text-[10px] whitespace-nowrap ">Dinda Saddono</p>
+              <p className="text-[10px] whitespace-nowrap ">
+                Kenny Bianco Kotambunan
+              </p>
+            </div>
+            <div className="grid grid-cols-2 place-content-center text-center my-2 max-w-[1000px] m-auto place-items-center">
+              <p className="text-[10px] whitespace-nowrap">
+                Nabila Nada Azizah
+              </p>
+              <p className="text-[10px] whitespace-nowrap">
+                Mochamad Naufal Aufa Rifqi
+              </p>
+            </div>
+            <div className="grid grid-cols-3 gap-3 text-center w-screen m-auto max-w-[80%] ">
+              <p className="text-[10px] whitespace-nowrap">Valezka Eugenie</p>
+              <p className="text-[10px] whitespace-nowrap">
+                Muhammad Naufal Hadafiz
+              </p>
+              <p className="text-[10px] whitespace-nowrap">
+                Muhammad Fawwaz Wijaya
+              </p>
             </div>
           </div>
         </div>
@@ -185,19 +526,19 @@ const Jumbotron = ({ isDarkMode }) => {
         >
           <h1
             ref={oneTextRef}
-            className="text-xs   whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl  font-bold"
+            className="text-[10px]   whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl  font-bold"
           >
             SPECIAL EDITION
           </h1>
           <h1
             ref={twoTextRef}
-            className="text-xs whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold"
+            className="text-[10px] whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold"
           >
             SPECIAL EDITION
           </h1>
           <h1
             ref={threeTextRef}
-            className="text-xs whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold"
+            className="text-[10px] whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold"
           >
             SPECIAL EDITION
           </h1>
@@ -211,19 +552,19 @@ const Jumbotron = ({ isDarkMode }) => {
         >
           <h1
             ref={forTextRef}
-            className="text-xs whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl  font-bold"
+            className="text-[10px] whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl  font-bold"
           >
             SPECIAL EDITION
           </h1>
           <h1
             ref={fiveTextRef}
-            className="text-xs whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold"
+            className="text-[10px] whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold"
           >
             SPECIAL EDITION
           </h1>
           <h1
             ref={sixTextRef}
-            className="text-xs whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold"
+            className="text-[10px] whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold"
           >
             SPECIAL EDITION
           </h1>
@@ -239,19 +580,19 @@ const Jumbotron = ({ isDarkMode }) => {
       >
         <h1
           ref={sevenTextRef}
-          className="text-xs whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl  font-bold"
+          className="text-[10px] whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl  font-bold"
         >
           SPECIAL EDITION
         </h1>
         <h1
           ref={eightTextRef}
-          className="text-xs whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold"
+          className="text-[10px] whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold"
         >
           SPECIAL EDITION
         </h1>
         <h1
           ref={nineTextRef}
-          className="text-xs whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold"
+          className="text-[10px] whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold"
         >
           SPECIAL EDITION
         </h1>
@@ -265,7 +606,7 @@ const Jumbotron = ({ isDarkMode }) => {
       >
         <h1
           ref={tenTextRef}
-          className="text-xs whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl  font-bold"
+          className="text-[10px] whitespace-nowrap sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl  font-bold"
         >
           SPECIAL EDITION
         </h1>

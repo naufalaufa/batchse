@@ -13,6 +13,8 @@ import TextAnimation from "./components/TextAnimation";
 import DuaTipeAnimation from "./components/DuaTipeAnimation";
 import ParalaxText from "./components/ParalaxText";
 import AnimationinFixed from "./components/AnimationinFixed";
+import TimeLapseText from "./components/TimeLapseText";
+import Flower from "./components/Flower";
 AOS.init();
 
 const App = () => {
@@ -30,6 +32,7 @@ const App = () => {
         <ParalaxText />
         <Farewell />
         <Sidebar />
+        <Flower />
         <Character />
         <Footer />
       </div>
