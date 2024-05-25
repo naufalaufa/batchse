@@ -37,7 +37,8 @@ const AnimationinFixed = () => {
       },
       scale: 2,
     });
-  });
+    ScrollTrigger.refresh();
+  }, []);
 
   return (
     <>

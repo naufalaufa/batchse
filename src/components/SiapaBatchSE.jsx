@@ -3,7 +3,9 @@ import SiapaImage from "../assets/image/siapaImageOne.jpg";
 import { FaYoutube } from "react-icons/fa";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+gsap.registerPlugin(ScrollTrigger);
 const SiapaBatchSE = () => {
   const SiapaContainerRef = useRef(null);
   const tl = gsap.timeline();
@@ -18,7 +20,8 @@ const SiapaBatchSE = () => {
       opacity: 1,
       skewY: -4,
     });
-  });
+    ScrollTrigger.refresh();
+  }, [tl]);
 
   return (
     <>

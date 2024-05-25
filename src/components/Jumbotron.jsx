@@ -476,40 +476,39 @@ const Jumbotron = ({ isDarkMode }) => {
                 M
               </span>
             </h1>
-            <div className="grid grid-cols-4 max-w-[500px] m-auto my-1 place-content-center place-items-center">
-              <p className="text-[10px]  whitespace-nowrap  ">
+            <div className="flex gap-1 sm:gap-3 justify-center items-center max-w-[200px] m-auto">
+              <p className="text-[8px] whitespace-nowrap">
                 Muhammad Rifqi Zafran
               </p>
-              <p className="text-[10px] whitespace-nowrap ">Nurul Fadilah</p>
-              <p className="text-[10px] whitespace-nowrap ">
+              <p className="text-[8px] whitespace-nowrap">Nurul Fadilah</p>
+              <p className="text-[8px] whitespace-nowrap">
                 Arrizky Putra Ramadhan
               </p>
-              <p className="text-[10px] whitespace-nowrap ">
+              <p className="text-[8px] whitespace-nowrap">
                 Aurelia Syifa Indrayana
               </p>
             </div>
-            <div className="grid grid-cols-4 my-2 max-w-[900px] m-auto place-content-center place-items-center">
-              <p className="text-[10px] whitespace-nowrap ">Nadira Refiana</p>
-              <p className="text-[10px] whitespace-nowrap ">Dinda Saddono</p>
-              <p className="text-[10px] whitespace-nowrap ">
-                Kenny Bianco Kotambunan
-              </p>
+            <div className="flex gap-1 sm:gap-3 my-1 justify-center items-center">
+              <p className="text-[8px]">Nadira Refiana</p>
+              <p className="text-[8px]">Dinda Saddono</p>
+              <p className="text-[8px]">Kenny Bianco Kotambunan</p>
+              <p className="text-[8px]">Nabila Nada Azizah</p>
             </div>
-            <div className="grid grid-cols-2 place-content-center text-center my-2 max-w-[1000px] m-auto place-items-center">
-              <p className="text-[10px] whitespace-nowrap">
-                Nabila Nada Azizah
-              </p>
-              <p className="text-[10px] whitespace-nowrap">
-                Mochamad Naufal Aufa Rifqi
-              </p>
-            </div>
-            <div className="grid grid-cols-3 gap-3 text-center w-screen m-auto max-w-[80%] ">
-              <p className="text-[10px] whitespace-nowrap">Valezka Eugenie</p>
-              <p className="text-[10px] whitespace-nowrap">
+            <div className="flex gap-1 sm:gap-3 my-1 justify-center items-center">
+              <p className="text-[8px] whitespace-nowrap">
                 Muhammad Naufal Hadafiz
               </p>
-              <p className="text-[10px] whitespace-nowrap">
+              <p className="text-[8px] whitespace-nowrap">
                 Muhammad Fawwaz Wijaya
+              </p>
+              <p className="text-[8px] whitespace-nowrap">Valezka Eugenie</p>
+            </div>
+            <div className="flex items-center justify-center gap-2">
+              <p className="text-[8px] whitespace-nowrap text-center">
+                Muhammad Daffa Syabana Tiandi
+              </p>
+              <p className="text-[8px] whitespace-nowrap text-center">
+                Mochamad Naufal Aufa Rifqi
               </p>
             </div>
           </div>

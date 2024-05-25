@@ -20,6 +20,7 @@ import ZeinRoomImage from "../assets/image/zeinRoom.jpg";
 import FotoAwan from "../assets/image/fotoImageAwan.jpg";
 import KotoKepala from "../assets/image/hehekepala.jpg";
 import Bejejer from "../assets/image/bejejer.png";
+import Poster from "../assets/image/poster.jpg";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { Image } from "antd";

@@ -5,9 +5,8 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
 
-gsap.registerPlugin(ScrollTrigger);
-
 const DuaTipe = () => {
+  gsap.registerPlugin(ScrollTrigger);
   const DuaTipeContainerRef = useRef(null);
   const tl = gsap.timeline();
 
@@ -21,7 +20,9 @@ const DuaTipe = () => {
       opacity: 1,
       skewY: 4,
     });
-  });
+
+    ScrollTrigger.refresh();
+  }, [tl]);
 
   return (
     <section
