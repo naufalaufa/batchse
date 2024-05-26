@@ -8,6 +8,7 @@ import CBNlogo from "../assets/image/cbn.png";
 gsap.registerPlugin(ScrollTrigger);
 
 const Jumbotron = ({ isDarkMode }) => {
+  const containerImage = useRef(null);
   const oneTextRef = useRef(null);
   const twoTextRef = useRef(null);
   const threeTextRef = useRef(null);
@@ -375,11 +376,19 @@ const Jumbotron = ({ isDarkMode }) => {
 
       scale: 1.2,
     });
+    gsap.to(containerImage.current, {
+      scrollTrigger: {
+        trigger: containerImage.current,
+        scrub: 1,
+      },
+      scale: 1.2,
+    });
   });
 
   return (
     <>
       <section
+        ref={containerImage}
         id="jumbotron"
         className="min-h-screen grid place-content-center relative  "
       >
@@ -392,7 +401,7 @@ const Jumbotron = ({ isDarkMode }) => {
           />
         </div>
 
-        <div className="absolute top-0 left-0 right-0 bottom-0 grid place-content-center place-items-center bg-black/55">
+        <div className="absolute top-0 left-0 right-0 bottom-0 grid place-content-center place-items-center bg-black/50">
           <div
             data-aos="flip-up"
             data-aos-duration="1000"
@@ -400,7 +409,7 @@ const Jumbotron = ({ isDarkMode }) => {
             className=" m-auto my-3"
           >
             <img
-              className="w-full  h-full object-contain max-w-[150px] max-h-[150px]"
+              className="w-full   h-full object-contain max-w-[150px] max-h-[150px]"
               src={CBNlogo}
               alt={CBNlogo}
             />
@@ -476,40 +485,42 @@ const Jumbotron = ({ isDarkMode }) => {
                 M
               </span>
             </h1>
-            <div className="flex gap-1 sm:gap-3 justify-center items-center max-w-[200px] m-auto">
-              <p className="text-[8px] whitespace-nowrap">
-                Muhammad Rifqi Zafran
-              </p>
-              <p className="text-[8px] whitespace-nowrap">Nurul Fadilah</p>
-              <p className="text-[8px] whitespace-nowrap">
-                Arrizky Putra Ramadhan
-              </p>
-              <p className="text-[8px] whitespace-nowrap">
-                Aurelia Syifa Indrayana
-              </p>
-            </div>
-            <div className="flex gap-1 sm:gap-3 my-1 justify-center items-center">
-              <p className="text-[8px]">Nadira Refiana</p>
-              <p className="text-[8px]">Dinda Saddono</p>
-              <p className="text-[8px]">Kenny Bianco Kotambunan</p>
-              <p className="text-[8px]">Nabila Nada Azizah</p>
-            </div>
-            <div className="flex gap-1 sm:gap-3 my-1 justify-center items-center">
-              <p className="text-[8px] whitespace-nowrap">
-                Muhammad Naufal Hadafiz
-              </p>
-              <p className="text-[8px] whitespace-nowrap">
-                Muhammad Fawwaz Wijaya
-              </p>
-              <p className="text-[8px] whitespace-nowrap">Valezka Eugenie</p>
-            </div>
-            <div className="flex items-center justify-center gap-2">
-              <p className="text-[8px] whitespace-nowrap text-center">
-                Muhammad Daffa Syabana Tiandi
-              </p>
-              <p className="text-[8px] whitespace-nowrap text-center">
-                Mochamad Naufal Aufa Rifqi
-              </p>
+            <div className="m-auto ">
+              <div className="flex gap-1 sm:gap-3 justify-center items-center max-w-[200px] m-auto">
+                <p className="text-[8px] whitespace-nowrap">
+                  Muhammad Rifqi Zafran
+                </p>
+                <p className="text-[8px] whitespace-nowrap">Nurul Fadilah</p>
+                <p className="text-[8px] whitespace-nowrap">
+                  Arrizky Putra Ramadhan
+                </p>
+                <p className="text-[8px] whitespace-nowrap">
+                  Aurelia Syifa Indrayana
+                </p>
+              </div>
+              <div className="flex gap-1 sm:gap-3 my-1 justify-center items-center">
+                <p className="text-[8px]">Nadira Refiana</p>
+                <p className="text-[8px]">Dinda Saddono</p>
+                <p className="text-[8px]">Kenny Bianco Kotambunan</p>
+                <p className="text-[8px]">Nabila Nada Azizah</p>
+              </div>
+              <div className="flex gap-1 sm:gap-3 my-1 justify-center items-center">
+                <p className="text-[8px] whitespace-nowrap">
+                  Muhammad Naufal Hadafiz
+                </p>
+                <p className="text-[8px] whitespace-nowrap">
+                  Muhammad Fawwaz Wijaya
+                </p>
+                <p className="text-[8px] whitespace-nowrap">Valezka Eugenie</p>
+              </div>
+              <div className="flex items-center justify-center gap-2">
+                <p className="text-[8px] whitespace-nowrap text-center">
+                  Muhammad Daffa Syabana Tiandi
+                </p>
+                <p className="text-[8px] whitespace-nowrap text-center">
+                  Mochamad Naufal Aufa Rifqi
+                </p>
+              </div>
             </div>
           </div>
         </div>

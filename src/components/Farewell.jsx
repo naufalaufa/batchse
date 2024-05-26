@@ -2,7 +2,10 @@ import VideoShootHiring from "../../public/IGDownloader.App_3363328606943714880.
 
 const Farewell = () => {
   return (
-    <div className="w-screen max-w-[85vw] my-36 m-auto min-h-screen grid place-content-center place-items-center">
+    <div
+      id="farewell"
+      className="w-screen max-w-[85vw] my-36 m-auto min-h-screen grid place-content-center place-items-center"
+    >
       <p className="font-bold text-center text-2xl my-3">Farewell</p>
       <video className="rounded-lg" loop controls src={VideoShootHiring}>
         <source src={VideoShootHiring} />

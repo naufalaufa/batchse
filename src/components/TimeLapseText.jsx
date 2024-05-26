@@ -1,13 +1,26 @@
-import ImageRandom from "../assets/image/batchse1.jpg";
-import ImageRandom2 from "../assets/image/batchse11.jpg";
-import ImageRandom3 from "../assets/image/batchse10.jpg";
-import ImageRandom4 from "../assets/image/batchse12.jpg";
-import { Image } from "antd";
+import gsap from "gsap";
+import TextPlugin from "gsap/TextPlugin";
+import { useEffect, useRef } from "react";
 
+gsap.registerPlugin(TextPlugin);
 const TimeLapseText = () => {
-  setInterval(() => {}, 3000);
+  const textRef = useRef(null);
+  useEffect(() => {
+    gsap.to(textRef.current, {
+      duration: "2",
+      text: {
+        value: "your name text anjays",
+        speed: 2,
+        newClass: "class2",
+        delimiter: "",
+      },
+    });
+  }, []);
+
   return (
-    <section className="grid gap-5  min-h-screen w-screen place-content-center py-10 bg-white text-black"></section>
+    <section className="grid gap-5  min-h-screen w-screen place-content-center py-10 bg-white text-black">
+      <p ref={textRef}></p>
+    </section>
   );
 };
 

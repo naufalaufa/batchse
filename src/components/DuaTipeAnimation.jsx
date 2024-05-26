@@ -42,7 +42,10 @@ const DuaTipeAnimation = () => {
   });
   return (
     <>
-      <section className="min-h-screen grid place-content-center place-items-center my-32">
+      <section
+        id="youtube"
+        className="min-h-screen grid place-content-center place-items-center my-32"
+      >
         <div className=" w-screen m-auto">
           <h1 className="text-center font-bold  my-3 text-3xl">Dua Tipe</h1>
           <div className="bg-white  relative  min-h-[50vh] grid place-content-center rounded-lg">
@@ -53,7 +56,7 @@ const DuaTipeAnimation = () => {
             />
             <div className="absolute grid  place-content-center place-items-center bg-black/20 top-0 bottom-0 left-0 right-0">
               <a
-                href="http://youtube.com"
+                href="https://youtu.be/oRzd4jv3Yto?si=5ypxGRrfCwCJsSmL"
                 target="_blank"
                 ref={roundedAnimationRef}
                 className="max-w-[500px]  grid place-content-center m-auto opacity-0 bg-red-500 shadow-lg cursor-pointer   w-[150px] h-[150px] rounded-full"
@@ -64,10 +67,10 @@ const DuaTipeAnimation = () => {
           </div>
 
           <p className="text-white  p-4 max-w-[800px] m-auto text-center text-[10px]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-            adipisci error doloremque? Dicta nobis commodi similique fugit
-            nostrum velit veniam cumque, doloremque neque, nam asperiores quam
-            atque sint itaque sapiente.
+            Nah ini “Dua Tipe” nyaa Batch S.E!! Dua Tipe ini peninggalan sebelum
+            Batch S.E berpisah nih. Bertema tentang Perbedaan Generasi, Batch
+            S.E mau nunjukin ke lo tentang perbedaan antar Generasi boomer sama
+            Gen Z kaya kita sekarang ini!!
           </p>
         </div>
       </section>

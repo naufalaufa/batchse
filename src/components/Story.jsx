@@ -20,10 +20,20 @@ import ZeinRoomImage from "../assets/image/zeinRoom.jpg";
 import FotoAwan from "../assets/image/fotoImageAwan.jpg";
 import KotoKepala from "../assets/image/hehekepala.jpg";
 import Bejejer from "../assets/image/bejejer.png";
-import Poster from "../assets/image/poster.jpg";
+import RevealDumpOne from "../assets/image/dumpReveal.jpg";
+import RevealDumpTwo from "../assets/image/dumpReveal2.jpg";
+import dinnerBlockM from "../assets/image/dinnerBlockM.jpg";
+import anjaySelfi from "../assets/image/anjaySefi.jpg";
+import firstMagangOne from "../assets/image/fisrtMagang.jpg";
+import firstMagangTwo from "../assets/image/firstMagangTwo.jpg";
+import firstMagangThree from "../assets/image/firstMagangThree.jpg";
+import warnet from "../assets/image/warnet.jpg";
+import blockMHehe from "../assets/image/blokMhehe.jpg";
+import gurlBlockM from "../assets/image/gurlBlokM.jpg";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { Image } from "antd";
+import Loading from "./Loading";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -57,17 +67,20 @@ const Story = () => {
           className="grid mt-12 grid-cols-1 md:grid md:grid-cols-3 max-w-[500px] gap-2"
         >
           <Image
+            loading={<Loading />}
             className=" object-cover aspect-square"
             src={ImageBatchSeOne}
             alt={ImageBatchSeOne}
           />
           <Image
+            loading={<Loading />}
             height={"100%"}
             className="object-cover aspect-square"
             src={ImageBatchSeTwo}
             alt={ImageBatchSeTwo}
           />
           <Image
+            loading={<Loading />}
             height={"100%"}
             className="object-cover aspect-square"
             src={ImageBatchSeThree}
@@ -80,17 +93,20 @@ const Story = () => {
           className="grid grid-cols-1 md:grid md:grid-cols-3 max-w-[500px] gap-2"
         >
           <Image
+            loading={<Loading />}
             height={"100%"}
             className="aspect-square object-cover"
             src={ImageBatchSeFive}
             alt={ImageBatchSeFive}
           />
           <Image
+            loading={<Loading />}
             className="aspect-square object-cover"
             src={ImageBatchSeSeven}
             alt={ImageBatchSeSeven}
           />
           <Image
+            loading={<Loading />}
             className="aspect-square object-cover"
             src={ImageBatchSeEight}
             alt={ImageBatchSeEight}
@@ -105,12 +121,14 @@ const Story = () => {
       </div>
       <div className="grid relative my-10 grid-cols-2 gap-3 w-screen max-w-[95vw] m-auto container  ">
         <Image
+          loading={<Loading />}
           height={"100%"}
           className=" object-cover w-full rounded-lg "
           src={BatchSEPosterOne}
           alt={ImageBatchSe11}
         />
         <Image
+          loading={<Loading />}
           height={"100%"}
           className=" object-cover w-full rounded-lg "
           src={BatchSEPosterTwo}
@@ -118,11 +136,13 @@ const Story = () => {
         />
         <div className="flex absolute top-0 left-0 right-0 justify-evenly">
           <img
+            loading={<Loading />}
             className="w-[50px] h-[50px] md:w-[100px] md:h-[100px] rounded-full"
             src={LogoSEone}
             alt={LogoSEone}
           />
           <img
+            loading={<Loading />}
             className="w-[50px] h-[50px] md:w-[100px] md:h-[100px] rounded-full"
             src={LogoSETwo}
             alt={LogoSETwo}
@@ -161,37 +181,41 @@ const Story = () => {
           className="grid grid-cols-3 max-w-[500px] gap-3 my-20"
         >
           <Image
+            loading={<Loading />}
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={SectionStoryImageOne}
             alt={SectionStoryImageOne}
           />
           <Image
+            loading={<Loading />}
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={SectionStoryImageTwo}
             alt={SectionStoryImageTwo}
           />
           <Image
+            loading={<Loading />}
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={SectionStoryImageThree}
             alt={SectionStoryImageThree}
           />
           <Image
+            loading={<Loading />}
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={SectionStoryImageFor}
             alt={SectionStoryImageFor}
           />
           <Image
+            loading={<Loading />}
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={UltahKennyImage}
             alt={UltahKennyImage}
           />
           <Image
+            loading={<Loading />}
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={ZeinRoomImage}
             alt={ZeinRoomImage}
           />
-          {/* <Image src={ImageOne} alt="" />
-          <Image src={ImageOne} alt="" /> */}
         </div>
         <div
           data-aos="fade-up"
@@ -199,31 +223,37 @@ const Story = () => {
           className="grid grid-cols-3 my-11 max-w-[500px] gap-3"
         >
           <Image
+            loading={<Loading />}
             className="w-[200px] h-[200px] aspect-square object-cover"
-            src={SectionStoryImageOne}
+            src={firstMagangOne}
             alt={SectionStoryImageOne}
           />
           <Image
+            loading={<Loading />}
             className="w-[200px] h-[200px] aspect-square object-cover"
-            src={SectionStoryImageTwo}
+            src={firstMagangTwo}
             alt={SectionStoryImageTwo}
           />
           <Image
+            loading={<Loading />}
             className="w-[200px] h-[200px] aspect-square object-cover"
-            src={SectionStoryImageThree}
+            src={firstMagangThree}
             alt={SectionStoryImageThree}
           />
           <Image
+            loading={<Loading />}
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={SectionStoryImageFor}
             alt={SectionStoryImageFor}
           />
           <Image
+            loading={<Loading />}
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={UltahKennyImage}
             alt={UltahKennyImage}
           />
           <Image
+            loading={<Loading />}
             className="w-[200px] h-[200px] aspect-square object-cover"
             src={ZeinRoomImage}
             alt={ZeinRoomImage}
@@ -258,16 +288,19 @@ const Story = () => {
         className="grid grid-cols-3 place-content-center place-items-center max-w-[90vw] m-auto gap-5 my-20"
       >
         <Image
+          loading={<Loading />}
           className="aspect-square object-cover rounded-lg"
           src={FotoAwan}
           alt={FotoAwan}
         />
         <Image
+          loading={<Loading />}
           className="aspect-square object-contain"
           src={ImageBatchSe11}
           alt={ImageBatchSe11}
         />
         <Image
+          loading={<Loading />}
           className="aspect-square object-cover rounded-lg"
           src={KotoKepala}
           alt={KotoKepala}
@@ -283,44 +316,66 @@ const Story = () => {
         data-aos-duration="1000"
         className="columns-5 gap-4 my-20 p-3"
       >
-        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
         <Image
+          loading={<Loading />}
           className="rounded-md"
-          src={ImageBatchSe11}
-          alt={ImageBatchSe11}
+          src={Bejejer}
+          alt={Bejejer}
         />
         <Image
+          loading={<Loading />}
           className="rounded-md"
-          src={ImageBatchSe11}
-          alt={ImageBatchSe11}
+          src={warnet}
+          alt={warnet}
         />
         <Image
+          loading={<Loading />}
           className="rounded-md"
-          src={ImageBatchSe11}
-          alt={ImageBatchSe11}
+          src={dinnerBlockM}
+          alt={dinnerBlockM}
         />
         <Image
+          loading={<Loading />}
           className="rounded-md"
-          src={ImageBatchSe11}
-          alt={ImageBatchSe11}
+          src={anjaySelfi}
+          alt={anjaySelfi}
         />
         <Image
+          loading={<Loading />}
           className="rounded-md"
-          src={ImageBatchSe11}
-          alt={ImageBatchSe11}
+          src={RevealDumpOne}
+          alt={RevealDumpOne}
         />
         <Image
+          loading={<Loading />}
           className="rounded-md"
-          src={ImageBatchSe11}
-          alt={ImageBatchSe11}
+          src={RevealDumpTwo}
+          alt={RevealDumpTwo}
         />
         <Image
+          loading={<Loading />}
           className="rounded-md"
-          src={ImageBatchSe11}
-          alt={ImageBatchSe11}
+          src={blockMHehe}
+          alt={blockMHehe}
         />
-        <Image className="rounded-md" src={ImageBatchSe12} alt={Bejejer} />
-        <Image className="rounded-md" src={Bejejer} alt={Bejejer} />
+        <Image
+          loading={<Loading />}
+          className="rounded-md"
+          src={gurlBlockM}
+          alt={gurlBlockM}
+        />
+        <Image
+          loading={<Loading />}
+          className="rounded-md"
+          src={ImageBatchSe12}
+          alt={Bejejer}
+        />
+        <Image
+          loading={<Loading />}
+          className="rounded-md"
+          src={Bejejer}
+          alt={Bejejer}
+        />
       </div>
 
       <div className="w-screen max-w-[90%] m-auto">

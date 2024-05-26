@@ -48,7 +48,10 @@ const Character = () => {
       <h1 className="text-center  whitespace-nowrap my-10 lg:mt-32  font-bold text-xl">
         CHOOSE YOUR CHARACTER
       </h1>
-      <div className="hidden md:grid md:grid-cols-3 lg:grid lg:grid-cols-3">
+      <div
+        id="character"
+        className="hidden md:grid md:grid-cols-3 lg:grid lg:grid-cols-3"
+      >
         <div className="relative">
           <img
             className="border p-2 rounded-lg m-auto   object-cover aspect-square  shadow-sm shadow-slate-600"
@@ -674,6 +677,13 @@ const Character = () => {
               </p>
             </Modal>
           </div>
+        </div>
+        <div className="grid place-content-center w-full">
+          <p className="text-9xl">
+            F<span className="text-8xl">I</span>
+            <span className="text-7xl">N.</span>
+          </p>
+          <p className="text-center text-xs">Resistance In Bloom</p>
         </div>
       </div>
       <div className="w-screen m-auto grid sm:hidden md:hidden lg:hidden ">

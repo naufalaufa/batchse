@@ -3,6 +3,7 @@ import { IoMdPerson } from "react-icons/io";
 import { FaVideo } from "react-icons/fa6";
 import { FaPhotoVideo } from "react-icons/fa";
 import { HiOutlineEmojiSad } from "react-icons/hi";
+import { FaYoutube } from "react-icons/fa";
 
 const Sidebar = () => {
   return (
@@ -17,10 +18,13 @@ const Sidebar = () => {
         <a href="#storyimage">
           <FaPhotoVideo className="text-black" />
         </a>
-        <a href="">
+        <a href="#youtube">
+          <FaYoutube className="text-black" />
+        </a>
+        <a href="#farewell">
           <HiOutlineEmojiSad className="text-black" />
         </a>
-        <a href="">
+        <a href="#character">
           <IoMdPerson className="text-black" />
         </a>
       </div>
