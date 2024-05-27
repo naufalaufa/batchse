@@ -11,7 +11,7 @@ const SiapaBatchSE = () => {
   const tl = gsap.timeline();
 
   useEffect(() => {
-    tl.to(SiapaContainerRef.current, {
+    tl.to(".hehe".current, {
       scrollTrigger: {
         scrub: 1,
         trigger: SiapaContainerRef.current,
@@ -28,7 +28,7 @@ const SiapaBatchSE = () => {
       <section
         data-aos="fade-up"
         data-aos-duration="1000"
-        className="grid min-h-screen place-content-center my-32 place-items-center "
+        className="hehe grid min-h-screen place-content-center my-32 place-items-center "
       >
         <h1 className="my-9 font-bold text-2xl">Siapa?</h1>
         <div>

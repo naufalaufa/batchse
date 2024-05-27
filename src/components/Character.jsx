@@ -678,13 +678,10 @@ const Character = () => {
             </Modal>
           </div>
         </div>
-        <div className="grid place-content-center w-full">
-          <p className="text-9xl">
-            F<span className="text-8xl">I</span>
-            <span className="text-7xl">N.</span>
-          </p>
-          <p className="text-center text-xs">Resistance In Bloom</p>
-        </div>
+      </div>
+      <div className="grid place-content-center min-h-screen max-w-[90vw] m-auto">
+        <h1 className="text-4xl text-center my-2">Resistance In Bloom</h1>
+        <p className="text-center my-2">Has Flourised</p>
       </div>
       <div className="w-screen m-auto grid sm:hidden md:hidden lg:hidden ">
         <Carousel

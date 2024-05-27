@@ -3,7 +3,14 @@ import gsap from "gsap";
 import { useRef } from "react";
 import VideoTimeLapse from "../../public/0517(1).mp4";
 import SkateImage from "../assets/image/skate.jpg";
+import AwanNih from "../assets/image/awanNih.jpg";
+import Dimobil from "../assets/image/dimobil.jpg";
+import DiProduction from "../assets/image/diProduction.jpg";
+import DitanggaSEnih from "../assets/image/ditanggaNihSE.jpg";
+import AnjaySEnih from "../assets/image/anjaysenih.jpg";
 import SectionPhoto from "../assets/image/batchse1.jpg";
+import SectionPhotoTownhall from "../assets/image/seInTownhall.jpg";
+import SeInCoffeShop from "../assets/image/seInCoffeShop.jpg";
 import { Image } from "antd";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -35,38 +42,38 @@ const ParalaxText = () => {
           />
           <Image
             className="w-[100px]  h-[100px]  lg:w-[150px] lg:h-[150px]  aspect-square object-cover rounded-xl rotate-12"
-            src={SectionPhoto}
-            alt={SectionPhoto}
+            src={AwanNih}
+            alt={AwanNih}
           />
           <Image
             className="w-[100px]  h-[100px]   lg:w-[150px] lg:h-[150px] aspect-square object-cover rounded-xl rotate-12"
-            src={SectionPhoto}
-            alt={SectionPhoto}
+            src={Dimobil}
+            alt={Dimobil}
           />
           <Image
             className="w-[100px]  h-[100px] lg:w-[150px] lg:h-[150px]  aspect-square object-cover rounded-xl rotate-12"
-            src={SectionPhoto}
-            alt={SectionPhoto}
+            src={AnjaySEnih}
+            alt={AnjaySEnih}
           />
           <Image
             className="w-[100px]  h-[100px]   lg:w-[150px] lg:h-[150px]  aspect-square object-cover rounded-xl rotate-12"
-            src={SectionPhoto}
-            alt={SectionPhoto}
+            src={DiProduction}
+            alt={DiProduction}
           />
           <Image
             className="w-[100px]  h-[100px]  lg:w-[150px] lg:h-[150px]  aspect-square object-cover rounded-xl rotate-12"
-            src={SectionPhoto}
-            alt={SectionPhoto}
+            src={DitanggaSEnih}
+            alt={DitanggaSEnih}
           />
           <Image
             className="w-[100px]  h-[100px]  lg:w-[150px] lg:h-[150px]  aspect-square object-cover rounded-xl rotate-12"
-            src={SectionPhoto}
-            alt={SectionPhoto}
+            src={SectionPhotoTownhall}
+            alt={SectionPhotoTownhall}
           />
           <Image
             className="w-[100px]  h-[100px]   lg:w-[150px] lg:h-[150px] aspect-square object-cover rounded-xl rotate-12"
-            src={SectionPhoto}
-            alt={SectionPhoto}
+            src={SeInCoffeShop}
+            alt={SeInCoffeShop}
           />
           <Image
             className="w-[100px]  h-[100px]  lg:w-[150px] lg:h-[150px]  aspect-square object-cover rounded-xl rotate-12"

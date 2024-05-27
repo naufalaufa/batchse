@@ -10,9 +10,9 @@ const AnimationinFixed = () => {
   const flowerTwoRef = useRef(null);
   const flowerThreeRef = useRef(null);
   useEffect(() => {
-    gsap.to(flowerRef.current, {
+    gsap.to(".hehe".current, {
       scrollTrigger: {
-        trigger: flowerRef.current,
+        trigger: ".hehe".current,
         scrub: true,
       },
       scale: 1.8,
@@ -42,11 +42,11 @@ const AnimationinFixed = () => {
 
   return (
     <>
-      <div className="grid w-full my-20 min-h-screen place-content-center place-items-center">
+      <div className=" grid w-full my-20 min-h-screen place-content-center place-items-center">
         <div className="sticky top-[40%] w-[150px] rounded-full h-[150px] grid place-content-center  bg-yellow-300">
           <div
             ref={flowerRef}
-            className="bg-red-500 rounded-full w-[80px] grid place-content-center h-[80px]"
+            className=" bg-red-500 rounded-full w-[80px] grid place-content-center h-[80px]"
           >
             <div
               ref={flowerTwoRef}
