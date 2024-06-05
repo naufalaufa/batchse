@@ -487,9 +487,7 @@ const Jumbotron = ({ isDarkMode }) => {
             </h1>
             <div className="m-auto ">
               <div className="flex gap-1 sm:gap-3 justify-center items-center max-w-[200px] m-auto">
-                <p className="text-[8px] whitespace-nowrap">
-                  Muhammad Rifqi Zafran
-                </p>
+                <p className="text-[8px] whitespace-nowrap">Rifqi Zhafran K</p>
                 <p className="text-[8px] whitespace-nowrap">Nurul Fadilah</p>
                 <p className="text-[8px] whitespace-nowrap">
                   Arrizky Putra Ramadhan

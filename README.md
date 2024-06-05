@@ -19,3 +19,41 @@ dari momen-momen kocak hingga saat-saat mengharukan yang membuat kita
 ingin menyeka air mata. Meskipun bayangan perpisahan melayang di
 udara, tapi kita telah tumbuh bersama dan siap untuk mengejar impian
 masing-masing.
+
+
+  <div className="grid grid-cols-4 max-w-[500px] m-auto my-1 place-content-center place-items-center">
+              <p className="text-[10px]  whitespace-nowrap  ">
+                Muhammad Rifqi Zafran
+              </p>
+              <p className="text-[10px] whitespace-nowrap ">Nurul Fadilah</p>
+              <p className="text-[10px] whitespace-nowrap ">
+                Arrizky Putra Ramadhan
+              </p>
+              <p className="text-[10px] whitespace-nowrap ">
+                Aurelia Syifa Indrayana
+              </p>
+            </div>
+            <div className="grid grid-cols-4 my-2 max-w-[900px] m-auto place-content-center place-items-center">
+              <p className="text-[10px] whitespace-nowrap ">Nadira Refiana</p>
+              <p className="text-[10px] whitespace-nowrap ">Dinda Saddono</p>
+              <p className="text-[10px] whitespace-nowrap ">
+                Kenny Bianco Kotambunan
+              </p>
+            </div>
+            <div className="grid grid-cols-2 place-content-center text-center my-2 max-w-[1000px] m-auto place-items-center">
+              <p className="text-[10px] whitespace-nowrap">
+                Nabila Nada Azizah
+              </p>
+              <p className="text-[10px] whitespace-nowrap">
+                Mochamad Naufal Aufa Rifqi
+              </p>
+            </div>
+            <div className="grid grid-cols-3 gap-3 text-center w-screen m-auto max-w-[80%] ">
+              <p className="text-[10px] whitespace-nowrap">Valezka Eugenie</p>
+              <p className="text-[10px] whitespace-nowrap">
+                Muhammad Naufal Hadafiz
+              </p>
+              <p className="text-[10px] whitespace-nowrap">
+                Muhammad Fawwaz Wijaya
+              </p>
+            </div>

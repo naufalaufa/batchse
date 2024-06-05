@@ -679,9 +679,9 @@ const Character = () => {
           </div>
         </div>
       </div>
-      <div className="grid place-content-center min-h-screen max-w-[90vw] m-auto">
+      <div className="lg:grid hidden place-content-center min-h-screen max-w-[90vw] m-auto">
         <h1 className="text-4xl text-center my-2">Resistance In Bloom</h1>
-        <p className="text-center my-2">Has Flourised</p>
+        <p className="text-center my-2">Has flourished</p>
       </div>
       <div className="w-screen m-auto grid sm:hidden md:hidden lg:hidden ">
         <Carousel
